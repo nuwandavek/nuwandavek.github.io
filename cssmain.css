@@ -25,6 +25,19 @@
 	}
 
 
+.icon-circle{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	background-color: #eee;
+	font-size: 25px;
+	color: #222;
+	text-align: center;
+}
+
 .back {
 	font-family: Titillium Web;
 	text-align: center;
@@ -50,7 +63,7 @@
 }
 
 #por1:hover .back2, #por2:hover .back2, #por3:hover .back2, #por4:hover .back2, #por5:hover .back2{
-	visibility: visible;
+	visibility: hidden;
 	cursor: pointer;
 }
 
@@ -82,12 +95,13 @@
 .back2 {
 	font-family: Titillium Web;
 	text-align: center;
-	background: rgba(0,230,255,0.8);
-	color: #212121;
+	/*background: rgba(205,184,0,0.85);
+	color: #212121;*/
+	background : rgba(22,22,22,0.9);
+	color: #eee;
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	visibility: hidden;
 }
 
 
@@ -95,7 +109,12 @@
 	font-weight: 700;
 	font-size: 25px;
 	font-family: Titillium Web;
-	font-weight: 700;
+}
+.tile-title3{
+	font-weight: 600;
+	font-size: 20px;
+	font-family: Titillium Web;
+	margin: 0px;
 }
 
 .edu-text{
@@ -145,7 +164,8 @@ ul.top-social li a:active {
 
 
 .modalDialog {
-    position: fixed;
+    position: absolute;
+    overflow: scroll;
     font-family: Titillium Web;
     text-align: center;
     top: 0;
@@ -171,13 +191,25 @@ ul.top-social li a:active {
 .title-modal{
 	font-size: 40px;
 	font-weight: 700;
+	margin-left:20%;
+	width: 60%;
 }
 
 .body-modal{
-	font-size: 25px;
+	text-align: center;
+	margin-left:20%;
+	width: 60%;
+	font-size: 20px;
 	font-weight: 400;
 }
-
+.body-modal-por{
+	text-align: left;
+	margin-left:15%;
+	width: 70%;
+	font-size: 20px;
+	font-weight: 400;
+	overflow: scroll;
+}
 .close{
 	font-family: Titillium Web;
 	font-size: 60px;
@@ -191,4 +223,7 @@ ul.top-social li a:active {
 }
 .body-of-it{
 	margin-top: 150px;
+}
+.body-of-it-por{
+	margin-top: 100px;
 }
