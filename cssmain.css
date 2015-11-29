@@ -168,11 +168,11 @@ ul.top-social li a:active {
     overflow: scroll;
     font-family: Titillium Web;
     text-align: center;
-    top: 0;
+    top: 105px;
     right: 0;
-    bottom: 0;
     left: 0;
-    background: rgba(255,255,255,0.90);
+    height: 2000px;
+    background: rgba(255,255,255,1);
     z-index: 99999;
     opacity:0;
     -webkit-transition: opacity 400ms ease-in;
@@ -181,6 +181,12 @@ ul.top-social li a:active {
     pointer-events: none;
 }
 
+.intern{
+	top: 850px;
+}
+.posi{
+	top: 2070px;
+}
 .modalDialog:target {
     opacity:1;
     pointer-events: auto;
@@ -208,7 +214,7 @@ ul.top-social li a:active {
 	width: 70%;
 	font-size: 20px;
 	font-weight: 400;
-	overflow: scroll;
+	
 }
 .close{
 	font-family: Titillium Web;
