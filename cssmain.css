@@ -1,0 +1,458 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+}
+.video {
+    position: relative;
+    top: -10%; left: 0;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin:0;
+}
+.container{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow:hidden;
+    display:block;
+    height: 600px;
+}
+#overlay {
+    position: absolute; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: radial-gradient(#34495e,#2c3e50,#333333);
+    opacity: 0.7; /* Black background with opacity */
+    z-index: 3; /* Add a pointer on hover */
+}
+#overlay2{
+    position: absolute; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-image: url(res/noise4.png);
+    z-index: 2;
+    opacity: 0.5;
+}
+.text1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    z-index: 10;
+    color: #ffffff;
+}
+.jumbo{
+
+    font-family: 'Josefin Sans';
+    font-size: 90px;
+    font-weight: 900;
+}
+.text3{
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    font-weight: 300;
+    width: 450px;
+    margin-left: 34%;
+    margin-top: 0px;
+    padding-top: 0;
+    border-left: solid #ffffff 3px;
+}
+
+.headhead{
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    font-weight: 600;
+}
+.headbody{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.headhead2{
+    font-family: 'Josefin Sans';
+    font-size: 60px;
+    color: #ffffff;
+}
+.headbody2{
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.text4{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    font-weight: 600;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 35%;
+    border: solid #ffffff 2px;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer; 
+    padding-top: 5px;
+}
+.logo{
+    position: absolute;
+    left: -6%;
+    top : -130%;
+    transform: scale(0.17);
+    z-index: 4;
+}
+#menu div {
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu div a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#menu-right div:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+#menu-right div.active {
+    border-bottom: 3px solid #ffffff;
+}
+
+#menu {
+    z-index: 9999;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+}
+.menu-tr {
+    background-color: rgba(0,0,0,0);
+}
+
+.menu-dark {
+    background-color: rgba(20, 20, 40,0.9);
+}
+
+#menu-left {
+    float: left;
+}
+
+#menu-right {
+    float: right;
+}
+
+#menu-right div {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 2px;
+}
+
+#menu-left div {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.sec2{
+    margin-top: 100px;
+}
+.headheadleft{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    border-left: solid #333 4px;
+    padding-left: 20px;
+}   
+
+
+    .backgroundicon {
+        color: #333;
+    }
+
+    
+    .foregroundicon {
+        color: #fff;
+    }
+
+#footer{
+    padding-bottom : 50px;
+    margin-top: 50px; 
+    background: linear-gradient(rgba(10, 10, 30,0.8),rgba(10, 10, 30,0.9),rgba(10, 10, 30,1));   
+}
+.foottext{
+    font-size: 12px;
+    color: rgba(230,230,230,0.8);
+}
+
+
+.section-head{
+    font-family: 'Dancing Script';
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: left;
+}
+
+.project-tile{
+    padding: 1px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    display:inline-block;
+    border:0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+    cursor: pointer;
+
+}
+
+.project-tile:hover {
+ 
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.45);
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
+.project-tile2{
+    padding: 1px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    display:inline-block;
+    border:0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+    cursor: pointer;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+
+}
+
+.project-tile2:hover {
+ 
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.45);
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
+.tile-text{
+    position: absolute;
+    z-index: 4;
+    color: #eee;
+    width: 100%;
+    top: 30%;
+    pointer-events: none;
+}
+.tile-overlay{
+    cursor: pointer;
+    margin: 1px;
+    position: absolute; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: radial-gradient(#34495e,#2c3e50,#333333);
+    opacity: 0.75; /* Black background with opacity */
+    z-index: 3; /* Add a pointer on hover */
+}
+.hidden{
+    display: none;
+}
+
+
+#cont{
+    margin-top: 50px;
+}
+.project-title{
+    font-size: 40px;
+    font-family: 'Dancing Script'
+}
+.project-image{
+
+}
+.project-description{
+    text-align: justify;
+}
+
+.butto{
+    font-size: 15px;
+    padding: 10px;
+    border : 2px solid #333;
+    background-color: #333;
+    color: #eee;
+    margin-right: 10px;
+}
+
+
+.butto:hover{
+    color: #333;
+    background-color: white;
+}
+
+
+.buttx{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sec-heading{
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+
+
+
+
+.parallax-1 {
+  background-image: url("res/toon2.jpg");
+}
+.jumbo.parallax p{  
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 90px;
+    line-height: 600px;
+    font-family: 'Dancing Script';
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.parallax {
+  height: 750px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.leftist{
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.small-heading{
+    font-size: 30px;
+    text-align: left;
+}
+
+
+
+
+
+.state-borders {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 0.25px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+
+
+.fixMap{
+    position: fixed;
+    top: 0px;
+}
+
+#map{
+    position: absolute;
+    z-index: -1;
+}
+
+.stuck {
+  position:fixed;
+  top:0;
+}
+.stuck-bottom {
+  position:absolute;
+  bottom:0;
+}
+
+#container3{
+    position: relative;
+}
+
+
+
+.graph-scroll-fixed #map{
+  position: fixed;
+  top: 0px;
+}
+.graph-scroll-below #map{
+  position: absolute;
+  bottom: 0px;
+}
+
+#overlay3{
+    width: 400px;
+    margin-left: 60%;
+}
+
+.trigger{
+    margin-top: 400px;
+    margin-bottom: 400px;
+    background-color: rgba(240,240,240,0.75);
+    padding : 20px;
+}
+
+.states-fill{
+    fill: rgba(10,10,10,0.9);
+}
+
+.bodies3{
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}

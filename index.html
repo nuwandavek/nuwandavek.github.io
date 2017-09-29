@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Vivek Aithal | Portfolio
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400|Josefin+Sans:300,400,600" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/topojson.v2.min.js"></script>
+        <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+        <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+        <script type="text/javascript" src="res/graph-scroll.js"></script>
+        <link href="cssmain.css" rel="stylesheet">
+        <script src="jsmain.js" ></script>
+        <script src="res/data_vivek.js" ></script>
+        <link rel="icon" href="res/favicon.ico" type="image/x-icon">
+
+
+
+    </head>
+    <body>
+        <nav id="menu">
+            <div id="menu-left">
+                <img src="res/logo.png" class="logo">
+            </div>
+            <div id="menu-right">
+                <div data-menuanchor="about"><a href="#projects">Projects</a></div>
+                <div data-menuanchor="about"><a href="#about">About</a></div>
+                <div data-menuanchor="contact"><a href="#contact">Contact</a></div>
+            </div>
+        </nav>
+
+        <div class="row" >
+            <div class="container col-md-12">
+                <!--video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="">
+                    <source src="vid.mp4" type="video/mp4" />
+                </video-->
+                <img src="res/pink.jpg" class="img img-responsive">
+
+                <div id="overlay"></div>
+                <div id="overlay2"></div>
+                <div class="text1 col-md-12">
+                    <p class="jumbo">
+                        A Grey Bit ; A Bit Grey
+                    </p>
+                    <div class="col-md-12">
+                        <div class="col-md-4 col-md-offset-4">
+                            <div class="col-md-4">
+                                <p style="border-top: 2px solid white"></p>    
+                            </div>
+                            <div class="col-md-4">
+                            <p style="font-size: 45px;font-family: 'Dancing Script'; line-height: 0;">portfolio</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p style="border-top: 2px solid white"></p>    
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 100px;">
+                        <p>
+                            Hello. My name is Vivek Aithal.  
+                        </p>
+                    </div>
+                    <div>
+                        <div class="col-md-4 col-md-offset-4">
+                            <div>                        
+                                <span class="fa-stack fa-2x ">
+                                    <i class="fa fa-circle fa-stack-2x foregroundicon " aria-hidden="true "></i>
+                                    <i class="fa fa-facebook fa-stack-1x backgroundicon " aria-hidden="true " style="font-size: 30px"></i>
+                                </span>                                    
+                 
+                                <span class="fa-stack fa-2x ">
+                                    <i class="fa fa-circle fa-stack-2x foregroundicon " aria-hidden="true "></i>
+                                    <i class="fa fa-github fa-stack-1x backgroundicon " aria-hidden="true " style="font-size: 30px"></i>
+                                </span>                  
+                                <span class="fa-stack fa-2x ">
+                                    <i class="fa fa-circle fa-stack-2x foregroundicon " aria-hidden="true "></i>
+                                    <i class="fa fa-linkedin fa-stack-1x backgroundicon " aria-hidden="true " style="font-size: 30px"></i>
+                                </span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div id="hidden-cont"></div>
+            <div id="mega-container">
+                <div class="container2 col-md-12" id="projects">
+                    <p class="sec-heading">Projects</p>
+                    <div class="col-md-offset-2 col-md-8" id="tiles-main">
+
+                    </div>
+                    <div class="col-md-offset-2 col-md-8" id="project-descrip">
+                        
+                    </div>
+                </div>
+                <div class="container2 col-md-12" id="about">
+                    <div class="jumbo parallax parallax-1"><p><p></div>        
+                    <p class="sec-heading">About</p>
+                    <div class="col-md-offset-2 col-md-8" id="about-sections">
+                        <div class="col-md-12">
+                            <div class="col-md-12">
+                                <p class="section-head">/ Work & Internships</p>
+                                <div class="col-md-4">
+                                    <img src="res/gojek.png" class="col-md-12 img-responsive img">
+                                    <p>AUG '16 - Present<br>Bangalore</p>    
+                                </div>
+                                <div class="col-md-8"><p class="small-heading">Analyst, Data Engineering</p><p class="leftist">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop </p></div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-4">
+                                    <img src="res/ola.png" class="col-md-12 img-responsive img">
+                                    <p>JUL '16 - AUG '17<br>Bangalore</p>    
+                                </div>
+                                <div class="col-md-8"><p class="small-heading">Analyst, Growth and New Initiatives</p><p class="leftist">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop </p></div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-4">
+                                    <img src="res/eat.png" class="col-md-12 img-responsive img">
+                                    <p>APR '15 - JUL '15<br>Pune</p>    
+                                </div>
+                                <div class="col-md-8"><p class="small-heading">Engineering Intern, Innovation Center</p><p class="leftist">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop </p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="section-head">/ Education</p>
+                            <div class="col-md-12">    
+                                <div class="col-md-3 col-md-offset-1">
+                                    <img src="res/iitkgp_logo.png" class="col-md-12 img-responsive img"> 
+                                    <p>Jul '11- Apr '16</p>     
+                                </div>
+                                <div class="col-md-8"><p class="small-heading">Indian Institute of Technology, Kharagpur</p> <p class="leftist">Bachelor of Technology (Hons.) in Aerospace Engineering <br>Master of Technology in Aerospace Engineering <br>Minor in Mathematics and Computing<br>CGPA : 8.58 / 10.0</p></div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 30px">
+                                <div class="col-md-4">
+                                    <p style="font-size: 50px;">12th STD</p>      
+                                </div>
+                                <div class="col-md-8 "><p class="small-heading">Karnataka State Pre-University Board</p><p class="leftist">Deeksha Centre for Learning, Bangalore<br>Percentage : 91.8%</p></div>    
+                            </div>
+
+                            <div class="col-md-12" style="margin-top: 30px">
+                                <div class="col-md-4">
+                                    <p style="font-size: 50px;">10th STD</p>      
+                                </div>
+                                <div class="col-md-8 "><p class="small-heading">Central Board for Secondary Education</p><p class="leftist">Jyothy Kendriya Vidyalaya, Bangalore<br>Percentage : 95.8%</p></div>    
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="section-head">/ Entreprenuership</p>
+                            <div class="col-md-12">    
+                                <div class="col-md-4">
+                                    <img src="res/sat.png" class="col-md-12 img-responsive img">      
+                                </div>
+                                <div class="col-md-8"><p class="small-heading">Co-Founder, Saturncart</p> <p class="leftist">Saturncart is an AI/IOT powered mobile application that enables self-checkout in grocery and fashion retail stores. We have developed a CV based security module that ensures verification of items in real-time, hence eliminating the need for checkout lines.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="section-head">/ Leadership</p>
+                            <div class="col-md-12">    
+                                <div class="col-md-3">
+                                    <img src="res/tsa.png" class="col-md-12 img-responsive img project-tile2">
+                                    <p>Executive Editor & Cartoonist</p>   
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="res/meta.png" class="col-md-12 img-responsive img project-tile2">
+                                    <p>Co-Founder</p>   
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="res/deb.png" class="col-md-12 img-responsive img project-tile2">
+                                    <p>Governor</p>   
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="res/etds.png" class="col-md-12 img-responsive img project-tile2">
+                                    <p>Governor</p>   
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="section-head awards">/ Awards & Achievements</p>
+                            <div class="col-md-12">
+                                <div id="container3" class="row">
+                                    <div id="map"></div>
+                                
+                                    <div id="overlay3">
+                                        <div class="trigger" id="tr-intro">
+                                            <p class="bodies3">HACKATHONS</p>
+                                            This is India, my homeland. It is divided into 543 constituencies (as of 2017 Sep.) and each unit sends a representative to the Lok Sabha, to ensure its interests are being served while laws and policies are being framed. 
+                                        </div>
+                                        <div class="trigger" id="tr-reservation">
+                                            <p class="bodies3">DEBATING</p>
+                                            The constitution of India reserves some constituencies for SCs(15.4% of Constituencies) and STs(8.6% of Constituencies). This was done to empower the disenfranchized, and further democratize the agency of governance.
+                                        </div>
+                                        <div class="trigger" id="tr-parties">
+                                            <p class="bodies3">ACADEMIC</p>
+                                            In the 2014 Lok Sabha elections, Bharatiya Janata Party (BJP) won a staggering 51.93% of seats, followed by Indian National Congress (INC) at a distant 8.1% seats. The BJP, along with its allies in the National Democratic Alliance (NDA), formed the central government of India. <br> Southern and Eastern India seem to resist the sway of the BJP, at least in this election.
+                                        </div>
+                                        <div class="trigger" id="tr-gender">
+                                            <p class="bodies3">MISCELLANEOUS</p>
+                                        For a nation with over 500 million women, a dismal 11.4% of seats were won by them. 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        
+
+        <div class="col-md-12" id="footer">
+            <div class="row sec2">
+                <div class="col-md-12">
+                    <p class="headhead2" id="contact">Contact</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3">
+                    <p class="headbody2">Would you like to discuss a project or a new idea further? <br>Or maybe just chat over a cup of coffee or beer? <br>Do ping me. <br><br> Email : vivekaithal44[at]gmail[dot]com <br> Phone : +91-99167-33098 | +91-86096-51153</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

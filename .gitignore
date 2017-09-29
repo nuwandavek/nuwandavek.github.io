@@ -1,0 +1,5 @@
+node_modules
+dist
+.grunt
+.DS_Store
+develop_res
