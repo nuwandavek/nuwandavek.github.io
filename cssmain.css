@@ -27,6 +27,9 @@ body {
     display:block;
     height: 600px;
 }
+.container2{
+    margin-bottom: 50px;
+}
 #overlay {
     position: absolute; /* Sit on top of the page content */
     display: block; /* Hidden by default */
@@ -185,11 +188,13 @@ body {
 
     .backgroundicon {
         color: #333;
+        pointer-events: none;
     }
 
     
     .foregroundicon {
         color: #fff;
+        cursor: pointer;
     }
 
 #footer{
@@ -295,8 +300,8 @@ body {
     right: 0;
     bottom: 0;
 
-    background: radial-gradient(#34495e,#2c3e50,#333333);
-    opacity: 0.75; /* Black background with opacity */
+    background: radial-gradient(#34495e,#243243,#000000);
+    opacity: 0.8; /* Black background with opacity */
     z-index: 3; /* Add a pointer on hover */
 }
 .hidden{
@@ -324,7 +329,7 @@ body {
     border : 2px solid #333;
     background-color: #333;
     color: #eee;
-    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 

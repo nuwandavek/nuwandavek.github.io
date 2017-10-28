@@ -131,10 +131,10 @@ $(document).ready(function(){
         console.log(sectionObj, projectObj);
         $("#project-descrip").append('<div id="cont" class="col-md-12"></div>');
         $("#cont").append('<p class="project-title col-md-12"><i class="fa fa-long-arrow-left buttx" aria-hidden="true"></i> '+projectObj.name+'</p>');
-        $("#cont").append('<img class="img img-responsive pull-left project-img col-md-5" src='+projectObj.image+'>');
-        $("#cont").append('<p class="project-description" col-md-7>'+projectObj.description+'</p>');
-        $("#cont").append('<a class="btn btn-standard col-md-3 col-md-offset-3 butto" href="'+projectObj.demoLink+'">View Demo</a>');
+        $("#cont").append('<img class="img img-responsive pull-left project-img col-md-6" src='+projectObj.image+'>');
+        $("#cont").append('<a class="btn btn-standard col-md-3 butto" href="'+projectObj.demoLink+'">View Demo</a>');
         $("#cont").append('<a class="btn btn-standard col-md-3 butto" href="'+projectObj.codeLink+'">View Code</a>');
+        $("#cont").append('<p class="project-description" col-md-12>'+projectObj.description+'</p>');
 
         $(".buttx").click(function(){
             $("#project-descrip").remove();
@@ -145,4 +145,13 @@ $(document).ready(function(){
         });
     });
     mapPlot();
+    $("#fb").click(function(){
+        window.open("http://www.facebook.com/nuwandazlartx",'_blank');
+    });
+    $("#gh").click(function(){
+        window.open("https://github.com/nuwandavek",'_blank');
+    });
+    $("#li").click(function(){
+        window.open("https://www.linkedin.com/in/vivek-aithal-575b207b/",'_blank');
+    });
 });
