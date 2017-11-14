@@ -114,35 +114,24 @@ $(document).ready(function(){
         
         for(var j=0; j<data[i].entities.length;j++){
             var project = data[i].entities[j]
-            $('#'+data[i].id+'_sub').append('<div class="col-md-3 project-tile" id="'+project.id+'"></div>');
+            $('#'+data[i].id+'_sub').append('<div class="col-md-3 project-tile" id="'+project.id+'" data-toggle="modal" data-target="#project-descrip"></div>');
             $('#'+project.id).append('<img class="img img-responsive tile" src="'+project.image+'"></img>');
             $('#'+project.id).append('<p class="tile-text">'+project.name+'</p>');
+            $('#'+project.id).append('<p class="tile-text-hover">'+project.subhead+'</p>');
             $('#'+project.id).append('<div class="tile-overlay"></div>');    
         }
     }
 
     $(".project-tile").click(function(){
-        $("#mega-container").addClass("hidden");
-        $("#hidden-cont").append("<div class='col-md-offset-2 col-md-8' id='project-descrip'> </div>");
         var id_tile = $(this).attr('id');
         var id_section = $(this).parent().parent().attr('id');
         var sectionObj = data.find((document) => document.id == id_section);
         var projectObj = sectionObj.entities.find((document) => document.id == id_tile);
         console.log(sectionObj, projectObj);
-        $("#project-descrip").append('<div id="cont" class="col-md-12"></div>');
-        $("#cont").append('<p class="project-title col-md-12"><i class="fa fa-long-arrow-left buttx" aria-hidden="true"></i> '+projectObj.name+'</p>');
-        $("#cont").append('<img class="img img-responsive pull-left project-img col-md-6" src='+projectObj.image+'>');
-        $("#cont").append('<a class="btn btn-standard col-md-3 butto" href="'+projectObj.demoLink+'">View Demo</a>');
-        $("#cont").append('<a class="btn btn-standard col-md-3 butto" href="'+projectObj.codeLink+'">View Code</a>');
-        $("#cont").append('<p class="project-description" col-md-12>'+projectObj.description+'</p>');
+        $(".modal-title").html(projectObj.name);
+        $(".project-img").attr("src",projectObj.image);
+        $(".project-description").append(projectObj.description);
 
-        $(".buttx").click(function(){
-            $("#project-descrip").remove();
-            $("#mega-container").removeClass("hidden");
-            $('html, body').animate({
-                scrollTop: $("#"+id_tile).offset().top - 100
-            }, 700);
-        });
     });
     mapPlot();
     $("#fb").click(function(){

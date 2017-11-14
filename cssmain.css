@@ -244,9 +244,16 @@ body {
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
+.project-tile:hover > .tile-text{
+    display: none;
+}
+
+.project-tile:hover > .tile-text-hover{
+    display: block;
+}
 .project-tile2{
     padding: 1px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
@@ -279,7 +286,7 @@ body {
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 .tile-text{
@@ -289,6 +296,16 @@ body {
     width: 100%;
     top: 30%;
     pointer-events: none;
+}
+.tile-text-hover{
+    position: absolute;
+    z-index: 4;
+    color: #eee;
+    width: 100%;
+    top: 20%;
+    pointer-events: none;
+    display: none;
+    font-size: 15px;
 }
 .tile-overlay{
     cursor: pointer;
@@ -300,7 +317,8 @@ body {
     right: 0;
     bottom: 0;
 
-    background: radial-gradient(#34495e,#243243,#000000);
+    
+    background: radial-gradient(rgba(52,73,94,0.9),rgba(36,50,67,0.9),rgba(0,0,0,0.9));
     opacity: 0.8; /* Black background with opacity */
     z-index: 3; /* Add a pointer on hover */
 }
@@ -325,7 +343,6 @@ body {
 
 .butto{
     font-size: 15px;
-    padding: 10px;
     border : 2px solid #333;
     background-color: #333;
     color: #eee;
@@ -344,6 +361,15 @@ body {
     top: 20px;
     left: 10px;
     font-size: 30px;
+    cursor: pointer;
+}
+.butty{
+
+    font-family: 'Josefin Sans';
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    font-size: 20px;
     cursor: pointer;
 }
 
