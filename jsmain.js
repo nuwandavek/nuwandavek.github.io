@@ -118,7 +118,7 @@ $(document).ready(function(){
             $('#'+project.id).append('<img class="img img-responsive tile" src="'+project.image+'"></img>');
             $('#'+project.id).append('<p class="tile-text">'+project.name+'</p>');
             $('#'+project.id).append('<p class="tile-text-hover">'+project.subhead+'</p>');
-            $('#'+project.id).append('<div class="tile-overlay"></div>');    
+            $('#'+project.id).append('<div class="tile-overlay"></div>');
         }
     }
 
@@ -130,7 +130,9 @@ $(document).ready(function(){
         console.log(sectionObj, projectObj);
         $(".modal-title").html(projectObj.name);
         $(".project-img").attr("src",projectObj.image);
-        $(".project-description").append(projectObj.description);
+        $(".project-description").html(projectObj.description);
+        $("#demo").attr("onclick","window.open('"+projectObj.demoLink+"');")
+        $("#code").attr("onclick","window.open('"+projectObj.codeLink+"');")
 
     });
     mapPlot();
