@@ -131,8 +131,21 @@ $(document).ready(function(){
         $(".modal-title").html(projectObj.name);
         $(".project-img").attr("src",projectObj.image);
         $(".project-description").html(projectObj.description);
-        $("#demo").attr("onclick","window.open('"+projectObj.demoLink+"');")
-        $("#code").attr("onclick","window.open('"+projectObj.codeLink+"');")
+        if (projectObj.demoLink=='#'){
+            $("#demo").addClass("disabled");    
+        }
+        else{
+            $("#demo").removeClass("disabled");    
+            $("#demo").attr("onclick","window.open('"+projectObj.demoLink+"');");
+        }
+        if (projectObj.codeLink=='#'){
+            $("#code").addClass("disabled");    
+        }
+        else{
+            $("#code").removeClass("disabled");  
+            $("#code").attr("onclick","window.open('"+projectObj.codeLink+"');");
+        }
+        
 
     });
     mapPlot();
