@@ -141,10 +141,10 @@ var data = [
 		},{	
 			'id' : 'R4',
 			'name' : 'Street Art',
-			'image' : 'res/projects/1.jpg',
-			'subhead' : 'Street art I painted around around my home',
+			'image' : 'res/projects/sa.jpg',
+			'subhead' : 'Street art I painted around my home',
             'description' : 'Heavily inspired by Banksy, this was an attempt to fill my neighbourhood with balloons.',
-			'demoLink' : '',
+			'demoLink' : 'https://drive.google.com/open?id=1PhEhf5vBVViC1UMIrw0ueKFb0Clg0Fxx',
 			'codeLink' : '#',
 		},{	
 			'id' : 'R5',
@@ -186,9 +186,17 @@ var data = [
 		},]
 	},{	
 		'id' : 'section_2',
-		'section_name' : 'Visualization Mini-Projects',
+		'section_name' : 'Mini-Projects',
 		'entities' :  [
 		{	
+			'id' : 'P7_0',
+			'name' : 'Be Their Genie',
+			'image' : 'res/projects/btg.png',
+			'subhead' : 'Crowdfunding site for A School',
+            'description' : 'This is a wishlist, by the students studying at Disha Seema. Disha Seema is a residential school at IIT Kharagpur hosting 300+ students from underprivileged backgrounds in rural West Bengal, Jharkhand and Orissa. It was established in 1992 by Hansa Nundi, a 1964 alumnus of IIT Kharagpur and the first woman to graduate from the Electrical Engineering Department. The school has a library, an aquaguard, a television, a park made of tires among other facilities. The school is supported by donations from alumni and well-wishers but with the burgeoning number of students, they are always short of money, to the extent that most kids have never had milk or eggs.',
+			'demoLink' : 'https://dishaseemaschool.github.io/be-their-genie/',
+			'codeLink' : 'https://github.com/dishaseemaschool/be-their-genie',
+		},{	
 			'id' : 'P7',
 			'name' : 'NLS Debate 2015',
 			'image' : 'res/projects/nls.jpg',
@@ -224,5 +232,30 @@ var data = [
 	}
 ];
 
+var socs = [
+	{	
+		'id' : 'tsa',
+		'name' : "Executive Editor & Cartoonist<br>The Scholars' Avenue - IITKGP Campus Newspaper",
+		'description' : "For almost all of my Kharagpur life, I have been a part of The Scholars' Avenue, in various positions. My initial years were spent reporting, conducting interviews, and writing articles, on a regular basis. As time passed, I began cartooning and desining for the news body. Along with a bunch of exciting and motivated teammates, I explored various comic formats and interactive online mediums for better information dissemination. Further, I took on a more manegerial role, ensuring we constanly innovate and stay relevant. I have initiated a podcast series, an AMA with the vice president, among other things. Our Facebook page that had around 6k likes when I joined, has over 30k likes now, which is a testament to our growth.<br>Here is a non-exchaustive list of online-projects I was involved in, apart from numerous articles I have written and edited.<br><div class='row'><div class='col-md-6'><ul><li><a href='https://www.facebook.com/media/set/?set=a.10151912978410132.1073741840.156819310131&amp;type=3'>KGP Graph Theory - Cartoon</a></li><li><a href='https://www.facebook.com/media/set/?set=a.10151823325095132.1073741836.156819310131&amp;type=3'>AlphaBhaat - Cartoon</a></li><li>				<a href='https://www.facebook.com/media/set/?set=a.10151352977390132.534490.156819310131&amp;type=3'>At World's End - Cartoon</a></li>			<li><a href='https://www.reddit.com/r/thescholarsavenue/comments/3jz0g8/i_am_atal_ashutosh_agarwal_vice_president_of_the/'>Reddit AMA with the Vice President</a></li><li><a href='http://thescholarsavenue.github.io/hallday15/#intro'>Know your Hallday - Web Interactive</a>			</li>	</ul></div>			<div class='col-md-6'>			<ul><li>				<a href='http://thescholarsavenue.github.io/interiit14/#Intro'>Inter IIT 2014 - Web Interactive</a>			</li><li>				<a href='https://www.youtube.com/watch?v=XA6MWi2DFjQ'>P01E01 : Sikhar Patranabis - Podcast</a>		</li>			<li><a href='https://www.youtube.com/watch?v=9dRs_F_HG9Y'>Encounters at Convcation - Fun Crowd Interview</a></li>	<li><a href='https://www.youtube.com/watch?v=RY8hkMLFIJk'>Conversations in Cosplay - Fun Crowd Interview</a>			</li></ul></div></div>",
+	},{	
+		'id' : 'metakgp',
+		'name' : "CoFounder<br>MetaKGP - A Hacker Collective",
+		'description' : "Metakgp is a loose association of engineers, hackers, artists, and students from IIT Kharagpur, who collaborate on various technical and non-technical projects.We celebrate freedom and openness; all our projects are free as in speech (and usually beer too). We began with a wiki to document the collective knowledge of KGP. We soon began working on projects that we thought students of KGP would find useful, or just amusing. Below are a few of our most popular projects : <br><ul><li><a href='https://wiki.metakgp.org/w/Main_Page'>MetaKGP Wiki</a></li><li><a href='https://qp.metakgp.org/'>IITKGP Question paper search</a></li><li>				<a href='https://metakgp.github.io/mcmp/'>Research Interest based Professor Search</a></li></ul>",
+	},{	
+		'id' : 'debsoc',
+		'name' : "Governer<br>The Debating Society",
+		'description' : "I was one of four governors, for the year 2013-2014. As part of my duties, I trained new members of the society in ket skills required for debating, over a month-long workshop. Throughout the year, we organized many public debates for the students of IIT Kharagpur. We also conducted a intra-IIT Kharapur debate tournament.",
+	},{	
+		'id' : 'etds',
+		'name' : "Actor & Director<br>The English Technology Dramatics Society",
+		'description' : "As an Actor, I have acted in The Freshers' play of 2011, and a Nukkad (street play) during the Spring Fest of 2012. In March of 2012, I directed the Annual play of ETDS, based on the movie '12 Angry Men'. I had to tweak the story, since we included women as jurors and our play was aptly titled '12 Angry Jurors'. Mimes used in the play, added an ineresting dimension to the drama.",
+	}
+]
 
 
+var locations = {
+		"hackathons" : [[22.314927,87.310531,1],[28.704059,77.102490,1],[19.075984,72.877656,1],[12.971599,77.594563,1]],
+		"debates" : [[19.075984,72.877656,2],[22.260423,84.853584,3],[22.572646,88.363895,3],[28.704059,77.102490,2],[22.314927,87.310531,1]],
+		"science" : [[22.314927,87.310531,1]],
+		"misc" : [[18.520430,73.856744,1],[12.971599,77.594563,1]]
+	}

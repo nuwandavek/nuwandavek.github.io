@@ -4,10 +4,12 @@ var mapPlot= function(){
 
         
         var path = d3.geoPath().projection(d3.geoMercator().scale(1100));
+        var projection = d3.geoMercator().scale(1100);
         if (error) throw error;
         //console.log(us);
         var svgorig = d3.select("#map").append("svg").attr("width", 650).attr("height", 700);
         var svg = svgorig.append("g").attr("transform","translate(-1750,550)"); 
+        //var svg = svgorig.append("g"); 
         
         svg.append("g")
             .attr("class", "states")
@@ -33,56 +35,28 @@ var mapPlot= function(){
         .container(d3.select('#container3'))
         .sections(d3.selectAll('#overlay3 > div'))
 
-        /*.on('active',function(){
+        .on('active',function(){
             var id = $(".graph-scroll-active").attr("id");
-            d3.selectAll(".states-fill").transition().ease(d3.easeCubic).duration(1000).attr("fill",function(d,i){
-                //console.log(constituencies[d.properties.PC_NAME],i);
-                try{
-                    return colourful(d.properties.PC_NAME, id);
-                }catch(e){
-                    console.log("disputed land");
-                    return "#bdc3c7";
-                }
-            }).attr("opacity",0.75)
-
-
-            var legend_map = []
-            Object.keys(colors[id]).forEach(function(key) {
-                return legend_map.push([key, colors[id][key]]);
-            });
-            console.log(legend_map);
-            d3.select(".legend").remove();
-            
-            var newsvg = svgorig.append("g").attr("class","legend");
-            newsvg.selectAll(".legs").data(legend_map).enter()
-            .append("circle").attr("class","legs").attr("cx",420).attr("cy",function(d,i){
-                console.log(d);
-                return 150+(i*20);
-            }).attr("stroke","#333333").attr("stroke-width",0.5).attr("r",5).attr("fill",function(d,i){
-                if ((id == "tr-parties") || (id == "tr-gender")) {
-                    return d[1];
-                }else if(id=="tr-crimes"){
-                    return d3.interpolateOrRd(d[1]);
-                }else if(id=="tr-money"){
-                    return d3.interpolateBuGn(d[1]);
-                }else if(id=="tr-education"){
-                    return accent(d[1]);
-                }else if(id=="tr-reservation"){
-                    return accent(d[1]);
-                }else if(id=="tr-intro"){
-                    return "#c0392b";
-                }
-            });
-
-            newsvg.selectAll(".legs-text").data(legend_map).enter()
-            .append("text").attr("class","legs-text bodies2").attr("x",435).attr("y",function(d,i){
-                console.log(d);
-                return 155+(i*20);
-            }).text(function(d,i){
-                return d[0];
-            })  
+            //console.log(id);
+            var locs =  locations[id];
+            console.log(locs);
+            svgorig.selectAll(".locloc").remove();
+            svgorig.append("g").selectAll(".locloc").data(locs).enter().append("circle").attr("class","locloc pulse")
+            .attr("transform","translate(-1750,550)")
+            .attr("cx",function(d,i){
+                console.log(projection([d[1],d[0]]));
+                return projection([d[1],d[0]])[0];
+            })
+            .attr("cy",function(d,i){
+                console.log(projection([d[1],d[0]]));
+                return projection([d[1],d[0]])[1];
+            })
+            .attr("r",function(d,i){
+                return 10*d[2];
+            })
+            .attr("fill","#e74c3c")     
         })
-        */
+        
     });
     
 };
@@ -92,6 +66,9 @@ var mapPlot= function(){
 
 
 $(document).ready(function(){
+    $(".loading").css("display", "none");
+    $("#actualbody").css("display", "inline-block");
+
     var scroll_start = 0;
     var startchange = $('.jumbo');
     var offset = startchange.offset();
@@ -114,7 +91,7 @@ $(document).ready(function(){
         
         for(var j=0; j<data[i].entities.length;j++){
             var project = data[i].entities[j]
-            $('#'+data[i].id+'_sub').append('<div class="col-md-3 project-tile" id="'+project.id+'" data-toggle="modal" data-target="#project-descrip"></div>');
+            $('#'+data[i].id+'_sub').append('<div class="col-md-4 project-tile" id="'+project.id+'" data-toggle="modal" data-target="#project-descrip"></div>');
             $('#'+project.id).append('<img class="img img-responsive tile" src="'+project.image+'"></img>');
             $('#'+project.id).append('<p class="tile-text">'+project.name+'</p>');
             $('#'+project.id).append('<p class="tile-text-hover">'+project.subhead+'</p>');
@@ -127,7 +104,7 @@ $(document).ready(function(){
         var id_section = $(this).parent().parent().attr('id');
         var sectionObj = data.find((document) => document.id == id_section);
         var projectObj = sectionObj.entities.find((document) => document.id == id_tile);
-        console.log(sectionObj, projectObj);
+        //console.log(sectionObj, projectObj);
         $(".modal-title").html(projectObj.name);
         $(".project-img").attr("src",projectObj.image);
         $(".project-description").html(projectObj.description);
@@ -145,9 +122,18 @@ $(document).ready(function(){
             $("#code").removeClass("disabled");  
             $("#code").attr("onclick","window.open('"+projectObj.codeLink+"');");
         }
-        
-
     });
+
+    $(".project-tile2").click(function(){
+        var id_tile = $(this).attr('id');
+        var projectObj = socs.find((document) => document.id == id_tile);
+        //console.log(projectObj);
+        $(".modal-title").html(projectObj.name);
+        $(".project-description").html(projectObj.description);
+    });
+
+
+
     mapPlot();
     $("#fb").click(function(){
         window.open("http://www.facebook.com/nuwandazlartx",'_blank');
