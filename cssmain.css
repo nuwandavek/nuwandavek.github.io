@@ -426,10 +426,174 @@ body {
   stroke-linejoin: round;
   stroke-linecap: round;
   pointer-events: none;
+=======
+.primary{
+	margin-top: 0px;
+	margin-bottom: 15px;	
+	max-width: 70px;
+    border-color: #AD0000;
+    border-width: 3px;
+	}
+
+.title-main{
+		font-size: 80px;
+		text-align: center;
+		margin-top: 35px;
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 700;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+.box{
+	border: 2px solid #efefef;
+	padding: 0px;
+    }
+
+.row{
+		margin: 0px;
+	}
+
+
+.icon-circle{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	background-color: #eee;
+	font-size: 25px;
+	color: #222;
+	text-align: center;
+}
+
+.back {
+	font-family: Titillium Web;
+	text-align: center;
+	background: rgba(20,20,20,0.7);
+	color: #eee;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.tile-title{
+	font-weight: 700;
+	font-size: 30px;	
+}
+.tile-content{
+	font-weight: 400;
+	font-size: 20px;
+	
+}
+#box1:hover .back,#box2:hover .back,#box3:hover .back,#box4:hover .back,#box5:hover .back,#box6:hover .back,#box7:hover .back,#box8:hover .back,#box9:hover .back,#box10:hover .back,#box11:hover .back{
+	visibility: hidden;
+	cursor: pointer;
+
+}
+
+#por1:hover .back2, #por2:hover .back2, #por3:hover .back2, #por4:hover .back2, #por5:hover .back2{
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.front:hover{
+	cursor: pointer;
+	border : 3px dashed black;
+}
+.front2:hover{
+	cursor: pointer;
+}
+.heads {
+	font-weight: 700;
+	font-size: 30px;
+	font-family: Titillium Web;
+	text-align: center;
+	color: #222;
+}
+.heads2 {
+	font-weight: 700;
+	font-size: 30px;
+	font-family: Titillium Web;
+	text-align: center;
+	color: #eee;
+}
+#por .box{
+	border: 2px solid #222;
+}
+
+.back2 {
+	font-family: Titillium Web;
+	text-align: center;
+	/*background: rgba(205,184,0,0.85);
+	color: #212121;*/
+	background : rgba(22,22,22,0.9);
+	color: #eee;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+.tile-title2{
+	font-weight: 700;
+	font-size: 25px;
+	font-family: Titillium Web;
+}
+.tile-title3{
+	font-weight: 600;
+	font-size: 20px;
+	font-family: Titillium Web;
+	margin: 0px;
+}
+
+.edu-text{
+	font-family: Titillium Web;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.educate{
+	margin-bottom: 0;
+}
+
+section#contact {
+    background-color: #222;
+    background-image: url(imgs/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
 
+ul.top-social {
+    margin-bottom: 20px;
+}
+
+ul.top-social li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 25px;
+    line-height: 40px;
+    outline: 0;
+    color: #222;
+    background-color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.top-social li a:hover,
+ul.top-social li a:focus,
+ul.top-social li a:active {
+    background-color: #fed136;
+>>>>>>> 73f8545325d1f530341f9f10bb36ee8bc13a1cd9
+}
+
+
+
+<<<<<<< HEAD
 .fixMap{
     position: fixed;
     top: 0px;
@@ -666,4 +830,3 @@ body {
     to {
         -moz-transform: rotate(360deg);
     }
-}
