@@ -8,3 +8,12 @@ pre{
 article .content h2:before, body h1, body .h1, #header-post #toc nav > ul > li:before, #header-post #nav ul a, #header-post .active, #header #nav ul a, article .content blockquote, article .content blockquote:before, #header-post #toc nav > ul > li > ul > li:before{
     color: #000;
 }
+
+figcaption{
+    text-align: center;
+}
+
+
+.project-title{
+    font-weight: bold;
+}
