@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vivekaithal.co/posts/hackuna-matata/</loc>
+    <lastmod>2020-09-09T22:56:33-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vivekaithal.co/posts/</loc>
+    <lastmod>2020-09-09T22:56:33-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vivekaithal.co/</loc>
+    <lastmod>2020-09-09T22:56:33-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vivekaithal.co/tags/art/</loc>
     <lastmod>2020-08-18T22:41:05-07:00</lastmod>
   </url>
@@ -18,22 +33,12 @@
   </url>
   
   <url>
-    <loc>https://vivekaithal.co/</loc>
-    <lastmod>2020-08-18T22:41:05-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://vivekaithal.co/tags/ai/</loc>
     <lastmod>2020-08-18T21:01:32-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://vivekaithal.co/posts/summer-at-comma-ai/</loc>
-    <lastmod>2020-08-18T21:01:32-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vivekaithal.co/posts/</loc>
     <lastmod>2020-08-18T21:01:32-07:00</lastmod>
   </url>
   
