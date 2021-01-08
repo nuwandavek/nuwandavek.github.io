@@ -6,10 +6,19 @@
     <description>Recent content in Posts on vivek aithal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 22:56:33 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jan 2021 17:14:49 -0800</lastBuildDate>
     
 	<atom:link href="https://vivekaithal.co/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>You : Only You can (auto-)complete you</title>
+      <link>https://vivekaithal.co/posts/you-complete-you/</link>
+      <pubDate>Thu, 07 Jan 2021 17:14:49 -0800</pubDate>
+      
+      <guid>https://vivekaithal.co/posts/you-complete-you/</guid>
+      <description>You is an auto-completion tool that completes your sentences. It lets you train a generative model that can mimic your personal style over all your text communication. Currently, You trains on WhatsApp chat history, and offers autocomplete suggestions on WhatsApp Web via a Chrome/Firefox extension and a flask server. This can be extended to train and autocomplete on more personal communication apps (Messenger, email, Slack, Twitter, etc.). Everything runs locally and is completely private.</description>
+    </item>
     
     <item>
       <title>Hack-una Matata : How to Win a Hackathon</title>

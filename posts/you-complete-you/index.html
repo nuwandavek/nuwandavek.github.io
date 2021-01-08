@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> You : Only You can (auto-)complete you | vivek aithal</title>
+  <meta name="description" content="Some cached thoughts : &lt;br&gt; 
+  - Revealed Preferences &gt;&gt;&gt; Stated Preferences.&lt;br&gt; 
+  - More important than the will to win is the will to prepare. &lt;br&gt;
+  - If you&#39;re so smart, why are you unhappy?">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="You : Only You can (auto-)complete you" />
+<meta property="og:description" content="You is an auto-completion tool that completes your sentences. It lets you train a generative model that can mimic your personal style over all your text communication. Currently, You trains on WhatsApp chat history, and offers autocomplete suggestions on WhatsApp Web via a Chrome/Firefox extension and a flask server. This can be extended to train and autocomplete on more personal communication apps (Messenger, email, Slack, Twitter, etc.). Everything runs locally and is completely private." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vivekaithal.co/posts/you-complete-you/" />
+<meta property="article:published_time" content="2021-01-07T17:14:49-08:00" />
+<meta property="article:modified_time" content="2021-01-07T17:14:49-08:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="You : Only You can (auto-)complete you"/>
+<meta name="twitter:description" content="You is an auto-completion tool that completes your sentences. It lets you train a generative model that can mimic your personal style over all your text communication. Currently, You trains on WhatsApp chat history, and offers autocomplete suggestions on WhatsApp Web via a Chrome/Firefox extension and a flask server. This can be extended to train and autocomplete on more personal communication apps (Messenger, email, Slack, Twitter, etc.). Everything runs locally and is completely private."/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://vivekaithal.co/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+  <link rel="stylesheet" href="https://vivekaithal.co/css/foo.css">
+
+  
+<link rel="icon" type="image/png" href="https://vivekaithal.co/images/favicon.ico" />
+
+  
+  
+  
+  
+  
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-59236300-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Essays</a></li>
+         
+        <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://vivekaithal.co/posts/hackuna-matata/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&text=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&is_video=false&description=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you&body=Check out this article: https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-digg " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&name=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you&description=You%20is%20an%20auto-completion%20tool%20that%20completes%20your%20sentences.%20It%20lets%20you%20train%20a%20generative%20model%20that%20can%20mimic%20your%20personal%20style%20over%20all%20your%20text%20communication.%20Currently%2c%20You%20trains%20on%20WhatsApp%20chat%20history%2c%20and%20offers%20autocomplete%20suggestions%20on%20WhatsApp%20Web%20via%20a%20Chrome%2fFirefox%20extension%20and%20a%20flask%20server.%20This%20can%20be%20extended%20to%20train%20and%20autocomplete%20on%20more%20personal%20communication%20apps%20%28Messenger%2c%20email%2c%20Slack%2c%20Twitter%2c%20etc.%29.%20Everything%20runs%20locally%20and%20is%20completely%20private.">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&t=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why">Why?</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#how-to-run-this">How to run this?</a></li>
+    <li><a href="#next-steps">Next Steps</a></li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        You : Only You can (auto-)complete you
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2021-01-07 17:14:49 -0800 PST" itemprop="datePublished">2021-01-07</time>
+          
+        </div>
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="/tags/ai" rel="tag">ai</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/side-projects" rel="tag">side-projects</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/app" rel="tag">app</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/nlp" rel="tag">nlp</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p><em>You</em> is an auto-completion tool that completes your sentences. It lets you train a generative model that can mimic your personal style over all your text communication. Currently, You trains on WhatsApp chat history, and offers autocomplete suggestions on WhatsApp Web via a Chrome/Firefox extension and a flask server. This can be extended to train and autocomplete on more personal communication apps (Messenger, email, Slack, Twitter, etc.). Everything runs locally and is completely private.</p>
+<h2 id="why">Why?</h2>
+<p>Most text-based applications we use have some or the other form of aid to help us spell-check words, complete words or even complete sentences. Most primitive ones are based on simply looking up your words against a corpus, determining the most probable word and helping you complete them (spell-checks, Word docs). Intermediate tools use your own data to predict the most frequent bi-gram pairs (mobile keyboards), and advanced tools use neural networks (GMail, Google Docs). Predicting the next word (or token), however, is the most popular way of training a language model model using neural networks. The last couple of years has seen remarkable innovation in the field of NLP using neural networks from Bi-LSTMs to BERT to GPT3. We think the algorithms are already in place for tools to leverage their power and offer delightful personalized predictions - complete all your sentences. :)</p>
+<p>We are also excited about the prospect of a language model that is tailor-made for you, across all platforms. A single model that understands how you speak to strangers over mail, colleagues over Slack, and friends over chat. We want people to be able to control and experiment with their experience and run everything locally, as much as possible - since these are after all, your personal messages only read by a handful of corporations and government agencies.</p>
+<h2 id="demo">Demo</h2>
+<p><img src="https://raw.githubusercontent.com/nuwandavek/you/master/demo.gif" alt="Chat With Rishi"></p>
+<h2 id="how-to-run-this">How to run this?</h2>
+<p>Currently You works on web Whatsapp, and running You involves 3 steps</p>
+<ul>
+<li>Training (fine-tuning) a pre-trained DistilGPT2 model on your own chats on Google Colab (or locally if you have a GPU)</li>
+<li>Running a flask server with the model downloaded from the above step</li>
+<li>Installing a Chrome/Firefox extension that talks to your server and injects the prompts to your browser</li>
+</ul>
+<p>For more detailed steps, checkout the  <code>README</code> file on the <a href="https://github.com/nuwandavek/you">github repository</a>.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>We have a bunch of ToDos on the <code>README</code>. Mostly we will be experimenting with new models or with better training strategies to improve the prompts. We&rsquo;ll  also be working on supporting more chat and other communication applications.</p>
+<p>This was a weekend project by <a href="https://twitter.com/nuwandavek">nuwandavek</a> and <a href="https://twitter.com/rishicomplex">rishicomplex</a>. Do check it out, and let us know how it goes!</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/posts">Essays</a></li>
+         
+          <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why">Why?</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#how-to-run-this">How to run this?</a></li>
+    <li><a href="#next-steps">Next Steps</a></li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&text=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&is_video=false&description=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you&body=Check out this article: https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&title=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&name=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you&description=You%20is%20an%20auto-completion%20tool%20that%20completes%20your%20sentences.%20It%20lets%20you%20train%20a%20generative%20model%20that%20can%20mimic%20your%20personal%20style%20over%20all%20your%20text%20communication.%20Currently%2c%20You%20trains%20on%20WhatsApp%20chat%20history%2c%20and%20offers%20autocomplete%20suggestions%20on%20WhatsApp%20Web%20via%20a%20Chrome%2fFirefox%20extension%20and%20a%20flask%20server.%20This%20can%20be%20extended%20to%20train%20and%20autocomplete%20on%20more%20personal%20communication%20apps%20%28Messenger%2c%20email%2c%20Slack%2c%20Twitter%2c%20etc.%29.%20Everything%20runs%20locally%20and%20is%20completely%20private.">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fvivekaithal.co%2fposts%2fyou-complete-you%2f&t=You%20%3a%20Only%20You%20can%20%28auto-%29complete%20you">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2021  vivek aithal 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Essays</a></li>
+         
+        <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>
