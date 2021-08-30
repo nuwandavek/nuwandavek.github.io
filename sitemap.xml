@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://vivekaithal.co/posts/dont-panic/</loc>
-    <lastmod>2021-08-15T18:14:51-07:00</lastmod>
+    <loc>https://vivekaithal.co/posts/continuous-glucose-monitoring/</loc>
+    <lastmod>2021-08-29T17:13:10-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://vivekaithal.co/posts/</loc>
+    <lastmod>2021-08-29T17:13:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vivekaithal.co/posts/dont-panic/</loc>
     <lastmod>2021-08-15T18:14:51-07:00</lastmod>
   </url>
   
