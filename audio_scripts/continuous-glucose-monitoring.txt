@@ -1,0 +1,29 @@
+This audio version of the blog post is auto generated. For tables and images, check out the website.
+
+Not-so-Sweet News : Experiments with a CGM
+Data, Code, Analysis: https: slash  slash githubdot com slash nuwandavek slash spiky.
+I love food. This, on the surface, is a pretty trite statement. But I don’t mean I love food the same way one says “oh you’re going to love this!” and show you a mediocre video of a silly dance to which you reply “LOL”. Everyone involved in this interaction including the dancers in the video know you did not laugh out loud. I mean that I feel a loss of self-control the same way I feel with respect to matters of my poor, poor heart. It is agonizing to not open the fridge when I’m thirsty and know that there are delicious drinks one door pull away. It is frustrating to say no to a cup full of sunshine and butterflies on ice-cream-fridays. And it sucks to say enough. Matters of the heart, much? So naturally, I bought a Continuous Glucose Monitor.
+
+What is a CGM?
+A CGM measures your blood glucose levels, which is extremely useful for diabetics. Procuring this device in the US without a prescription was as difficult and trying as anything to do with healthcare here. Almost all startups that are working on metabolic health with CGMs use Abbott’ Libre Freestyle line of sensors. Levels Health has a ton of literature on the correlation of glucose levels with metabolic health, and also on the various thresholds of glucose. But here are the main takeaways :
+Very high slash low blood sugar is bad 
+Spikes in glucose are bad
+High mean glucose is bad
+Stable, low-but-safe glucose levels is an ideal to aim for. I wore the CGM for approximately 10 days and did a bunch of experiments to see how different foods affect my glucose levels. I have not studied biology since the 10th grade, so the things I found were extremely fascinating. Here’s a notebook I made to analyze the data.
+
+Insights : The Bad
+Sugar is BAD. It results in the largest spikes, and the largest falls. Also, sugar elevates the mean blood sugar level - your post-sugar-mean is much higher than the pre-sugar-mean even after the spike has ended. I had cake one evening , which resulted in an increase of approximately 40 points and a decrease of approximately 30 points. That’s a movement of nearly 70 points in one hour! 
+Potatoes are bad :(. This was the most heartbreaking discovery. Potatoes cause an increase in blood glucose that lasts longer than any other food I consumed.
+Alcohol is bad, especially at night. It causes huge variations overnight and is also linked with bad sleep.
+Diet Coke is bad! This one was fascinating! Turns out that our pancreas preempt any glucose spikes using our senses and start generating insulin. So, when the sweet tasting diet soda brings no glucose, our body experiences a sugar crash. Diet soda is also associated with low self control with respect to other sugary drinks.
+My blood glucose is fairly good, if I don’t consume the above things. It crosses the lower limit than it does the higher limit - which I read is a function of shock of drastic dietary changes. I hope that stabilizes over time.
+
+Insights : The Good
+There’s a spike in glucose every morning when I wake up! It turns out that your body wants you wake up with energy and enthusiasm and pumps you up with glucose. Working out, hence, is a great way to expend this glucose and ensuring that one does not consume excess calories post workout due to glucose depletion.
+Yoghurt is a superfood! When I had non-fat-Greek yoghurt with protein powder and strawberries, my blood glucose barely rose! This is my go to snack now and a really great substitute for ice cream!
+I do not consume any breakfast and fast till lunch. This period seems to be the most stable glucose time, especially on days I work out! Look at those flat lines!
+
+Conclusion
+My sensor stopped working on Day 11 when I went swimming in the ocean. This experiment was extremely useful in anchoring how bad certain foods are, and in benchmarking them against other foods. A lot more people at office are doing these experiments now, and we hope to gain a better understanding when we have more data. I am still skeptical how useful monitoring glucose is, long term, but it definitely shocks you into better dietary habits. Take care of yourself, sweet child o’ mine.
+
+The end. Hope you enjoyed it and apologies for any errors!
