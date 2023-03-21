@@ -17,3 +17,7 @@ figcaption{
 .project-title{
     font-weight: bold;
 }
+
+figure{
+    margin: 0px;
+}
