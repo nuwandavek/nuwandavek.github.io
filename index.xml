@@ -12,11 +12,21 @@
     
     
     <item>
+      <title>squigglylines v1: Loss of Jobs vs Time</title>
+      <link>https://vivekaithal.co/posts/squiggly01-job-loss/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivekaithal.co/posts/squiggly01-job-loss/</guid>
+      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines
+  All-Job-Loss events so far: 0 (as-of-fiscal-year-2023)   </description>
+    </item>
+    
+    <item>
       <title>squigglylines v0: Degree-of-Insult of a Statement vs Time</title>
-      <link>https://vivekaithal.co/posts/degree-of-insult/</link>
+      <link>https://vivekaithal.co/posts/squiggly00-degree-of-insult/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://vivekaithal.co/posts/degree-of-insult/</guid>
+      <guid>https://vivekaithal.co/posts/squiggly00-degree-of-insult/</guid>
       <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines
   Echoing in the streets: &amp;#39;SF is back, baby!&amp;#39;   Inspiration Credits: xkcd fonts, @keerthanpg, SF parties, and of course, xkcd :)</description>
     </item>
