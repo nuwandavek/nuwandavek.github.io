@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> bodyvr: Control commabody with an Oculus | vivek Aithal</title>
+  <meta name="description" content="Some cached thoughts : &lt;br&gt; 
+  - Revealed Preferences &gt;&gt;&gt; Stated Preferences.&lt;br&gt; 
+  - More important than the will to win is the will to prepare. &lt;br&gt;
+  - If you&#39;re so smart, why are you unhappy?">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="bodyvr: Control commabody with an Oculus" />
+<meta property="og:description" content="code: https://github.com/nuwandavek/bodyvr
+contributors: fredyshox, nuwandavek
+The greatest result of the Apple Vision Pro hype is me dusting off my Meta Quest and trying it out after two years. I&rsquo;ve now used it for over a month - longer than I ever did when I originally bought it. Every time I use it, I am reminded of how cool a VR world might be, how far we are from it, and how silly the human brain is, nausea and everything." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vivekaithal.co/posts/001-bodyvr/" />
+<meta property="og:image" content="https://vivekaithal.co/images/001_bodyvr/display.webp" />
+<meta property="article:published_time" content="2024-03-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-03-05T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://vivekaithal.co/images/001_bodyvr/display.webp"/>
+
+<meta name="twitter:title" content="bodyvr: Control commabody with an Oculus"/>
+<meta name="twitter:description" content="code: https://github.com/nuwandavek/bodyvr
+contributors: fredyshox, nuwandavek
+The greatest result of the Apple Vision Pro hype is me dusting off my Meta Quest and trying it out after two years. I&rsquo;ve now used it for over a month - longer than I ever did when I originally bought it. Every time I use it, I am reminded of how cool a VR world might be, how far we are from it, and how silly the human brain is, nausea and everything."/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://vivekaithal.co/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+  <link rel="stylesheet" href="https://vivekaithal.co/css/foo.css">
+
+  
+  
+<link rel="icon" type="image/png" href="https://vivekaithal.co/images/favicon.ico" />
+
+  
+  
+  
+  
+  
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-59236300-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Essays</a></li>
+         
+        <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://vivekaithal.co/posts/nathan-for-you-for-you/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&text=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&is_video=false&description=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus&body=Check out this article: https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-digg " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&name=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus&description=code%3a%20https%3a%2f%2fgithub.com%2fnuwandavek%2fbodyvr%0acontributors%3a%20fredyshox%2c%20nuwandavek%0aThe%20greatest%20result%20of%20the%20Apple%20Vision%20Pro%20hype%20is%20me%20dusting%20off%20my%20Meta%20Quest%20and%20trying%20it%20out%20after%20two%20years.%20I%26rsquo%3bve%20now%20used%20it%20for%20over%20a%20month%20-%20longer%20than%20I%20ever%20did%20when%20I%20originally%20bought%20it.%20Every%20time%20I%20use%20it%2c%20I%20am%20reminded%20of%20how%20cool%20a%20VR%20world%20might%20be%2c%20how%20far%20we%20are%20from%20it%2c%20and%20how%20silly%20the%20human%20brain%20is%2c%20nausea%20and%20everything.">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&t=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#robotics--commabody">Robotics &amp; commabody</a></li>
+    <li><a href="#webxr">webXR</a></li>
+    <li><a href="#final-results">Final Results</a></li>
+    <li><a href="#next-steps">Next Steps</a></li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        bodyvr: Control commabody with an Oculus
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2024-03-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-03-05</time>
+          
+        </div>
+        
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p><em>code: <a href="https://github.com/nuwandavek/bodyvr">https://github.com/nuwandavek/bodyvr</a></em><br>
+contributors: <a href="https://twitter.com/fredyshox">fredyshox</a>, <a href="https://twitter.com/nuwandavek">nuwandavek</a></p>
+<p>The greatest result of the Apple Vision Pro hype is me dusting off my Meta Quest and trying it out after two years. I&rsquo;ve now used it for over a month - longer than I ever did when I originally bought it. Every time I use it, I am reminded of how cool a VR world might be, how far we are from it, and how silly the human brain is, nausea and everything. I have been thinking of robotics a lot, recently. So, before I got bored of Oculus, I wanted to work on a side project to control the <a href="https://www.comma.ai/shop/body">commabody</a> with the quest headset and controllers!</p>
+<figure>
+    <img src="/images/001_bodyvr/display.webp"/> <figcaption>
+            <h4>Dalle3: A boy using VR to guide a robot in a lush meadow</h4>
+        </figcaption>
+</figure>
+
+<h2 id="robotics--commabody">Robotics &amp; commabody</h2>
+<p>Making advanced, high-fidelity (humanoid?) robots is a difficult hardware problem. But making useful robots is a very, very difficult software problem. Generations of companies have <a href="https://twitter.com/adcock_brett/status/1763203224172154999">raised</a> <a href="https://techcrunch.com/2024/01/11/openai-backed-1x-raises-another-100m-for-the-race-to-humanoid-robots/">billions</a> of dollars in funding, made fancy hardware and even fancier youtube videos - with not much to show for, in terms of usefulness. comma built a very simple robot - commabody - that connects to openpilot, like any other car. It is currently extremely dumb, because it does nothing. But it could potentially do more, with the right software. We recently built a teleoperation platform for the body, and organized a cool hackathon around it. We also released a gymnasium API python library called <a href="https://github.com/commaai/body-jim">bodyjim</a>, making development on the commabody extremely simple, and fun.</p>
+<figure>
+    <img src="/images/001_bodyvr/body.webp"/> <figcaption>
+            <h4>commabodies (Billy &amp; silly) and teleop platform</h4>
+        </figcaption>
+</figure>
+
+<h2 id="webxr">webXR</h2>
+<p>We could leverage all the work done on the body teleop platform (streaming video and control commands) in our bodyvr project. Getting the video streams on a webpage, with control messages back to the body was delightfully trivial because of it. Although developing on the Oculus was painful, the webXR implementation in the Oculus Browser (based on Chrome) was a life saver. This meant we could build a simple webpage, and integrate the Oculus headset and controllers as opposed to writing an Oculus app from scratch. Meta&rsquo;s <a href="https://chromewebstore.google.com/detail/immersive-web-emulator/cgffilbpcibhmcfbgggfhfolhkfbhmik?pli=1">Immersive Web Emulator</a> was fantastic for debugging. We used <a href="https://threejs.org/">three.js</a>, a 3D js library, to project the 360 degree video (ecamera and dcamera) on a cylinder around the headset, and to get the controller inputs.</p>
+<video controls>
+    <source src=/images/001_bodyvr/development.mp4 type=video/mp4>
+</video>
+<figcaption><h4>Using a previously recorded video as placeholder</h4></figcaption>
+
+<h2 id="final-results">Final Results</h2>
+<p>We need to serve on https, since the Oculus browser has a strict check for the XR mode. Finally, after wiring up the controllers to the UI and the controls cereal message, we can run the command to start streaming!</p>
+<pre><code>WEBRTC_HOST=&lt;ip&gt;:&lt;port&gt; ./serve_https.py
+</code></pre><video controls>
+    <source src=/images/001_bodyvr/bodycams.mp4 type=video/mp4>
+</video>
+<figcaption><h4>ecamera and dcamera streams from comma3X</h4></figcaption>
+
+<hr>
+<video controls>
+    <source src=/images/001_bodyvr/vrcams.mp4 type=video/mp4>
+</video>
+<figcaption><h4>VR view!</h4></figcaption>
+
+<h2 id="next-steps">Next Steps</h2>
+<ul>
+<li>The first thing we realized after driving the body for a while was that the 360 view causes a lot of nausea. We need to follow the tricks they use in most VR games that involve movement. Potentially add static elements in the VR room around?</li>
+<li>The video stream quality is quite poor. Not sure what is causing this, but needs to be investigated.</li>
+<li>Add more features to the controllers? Use more controller buttons.</li>
+<li>Add 2-way audio support</li>
+</ul>
+<p>If you have a commabody, do give this a try!</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/posts">Essays</a></li>
+         
+          <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#robotics--commabody">Robotics &amp; commabody</a></li>
+    <li><a href="#webxr">webXR</a></li>
+    <li><a href="#final-results">Final Results</a></li>
+    <li><a href="#next-steps">Next Steps</a></li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&text=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&is_video=false&description=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus&body=Check out this article: https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&title=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&name=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus&description=code%3a%20https%3a%2f%2fgithub.com%2fnuwandavek%2fbodyvr%0acontributors%3a%20fredyshox%2c%20nuwandavek%0aThe%20greatest%20result%20of%20the%20Apple%20Vision%20Pro%20hype%20is%20me%20dusting%20off%20my%20Meta%20Quest%20and%20trying%20it%20out%20after%20two%20years.%20I%26rsquo%3bve%20now%20used%20it%20for%20over%20a%20month%20-%20longer%20than%20I%20ever%20did%20when%20I%20originally%20bought%20it.%20Every%20time%20I%20use%20it%2c%20I%20am%20reminded%20of%20how%20cool%20a%20VR%20world%20might%20be%2c%20how%20far%20we%20are%20from%20it%2c%20and%20how%20silly%20the%20human%20brain%20is%2c%20nausea%20and%20everything.">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fvivekaithal.co%2fposts%2f001-bodyvr%2f&t=bodyvr%3a%20Control%20commabody%20with%20an%20Oculus">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2024  vivek Aithal 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Essays</a></li>
+         
+        <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>
