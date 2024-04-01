@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>consciousness on vivek Aithal</title>
+    <title>Consciousness on vivek Aithal</title>
     <link>https://vivekaithal.co/tags/consciousness/</link>
-    <description>Recent content in consciousness on vivek Aithal</description>
+    <description>Recent content in Consciousness on vivek Aithal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Aug 2020 19:51:13 -0700</lastBuildDate>
-    
-	<atom:link href="https://vivekaithal.co/tags/consciousness/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vivekaithal.co/tags/consciousness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can Machines Think?</title>
       <link>https://vivekaithal.co/posts/can-machines-think/</link>
       <pubDate>Sat, 08 Aug 2020 19:51:13 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/can-machines-think/</guid>
       <description>She stared at the screen in disbelief. Till then it was explaining the rules as what can only be described as excitement. It felt like it was really looking forward to play. She half suspected this was a human trait they had explicitly coded, result of an A/B test aimed at moving some complicated metric on some colourful dashboard. But it had just said something that made her blush. Nothing inappropriate, of course, just charming.</description>
     </item>
-    
   </channel>
 </rss>

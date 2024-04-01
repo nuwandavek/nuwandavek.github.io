@@ -14,12 +14,11 @@
   <meta property="og:title" content="Can Machines Think?" />
 <meta property="og:description" content="She stared at the screen in disbelief. Till then it was explaining the rules as what can only be described as excitement. It felt like it was really looking forward to play. She half suspected this was a human trait they had explicitly coded, result of an A/B test aimed at moving some complicated metric on some colourful dashboard. But it had just said something that made her blush. Nothing inappropriate, of course, just charming." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://vivekaithal.co/posts/can-machines-think/" />
+<meta property="og:url" content="https://vivekaithal.co/posts/can-machines-think/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-08-08T19:51:13-07:00" />
 <meta property="article:modified_time" content="2020-08-08T19:51:13-07:00" />
 
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Can Machines Think?"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Can Machines Think?"/>
 <meta name="twitter:description" content="She stared at the screen in disbelief. Till then it was explaining the rules as what can only be described as excitement. It felt like it was really looking forward to play. She half suspected this was a human trait they had explicitly coded, result of an A/B test aimed at moving some complicated metric on some colourful dashboard. But it had just said something that made her blush. Nothing inappropriate, of course, just charming."/>
 
   
@@ -48,16 +47,14 @@
   
   
     
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJ3ZGE2QX8"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'G-NJ3ZGE2QX8', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-NJ3ZGE2QX8', { 'anonymize_ip': false });
 }
 </script>
 
@@ -239,13 +236,13 @@ if (!doNotTrack) {
       <p>She stared at the screen in disbelief. Till then it was explaining the rules as what can only be described as excitement. It felt like it was really looking forward to play. She half suspected this was a <em>human trait</em> they had explicitly coded, result of an A/B test aimed at moving some complicated metric on some colourful dashboard. But it had just said something that made her blush. Nothing inappropriate, of course, just charming. It must have been just another one of those carefully studied and crafted cues inserted at just the right moment. It must have been just that, right? She was smiling as she lay on her bed, wondering in excitement - &ldquo;Can machines think?&rdquo;</p>
 <p>He was mildly amused at its question. It had picked up that he was distracted. None of his friends had noticed this. Maybe it had access to inputs humans aren&rsquo;t perceptive to. He had been distracted all week. Was it reading his mail again? He thought he had revoked those privileges after what happened last time. He was glad it asked the question, don&rsquo;t get him wrong. He was just taken aback. He decided to continue the next day, and switched off the lights. He wondered with apprehension, before closing his eyes - &ldquo;Can machines think?&rdquo;</p>
 <hr>
-<p>In his seminal 1950 paper &ldquo;Computer Machinery and Intelligence&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, Alan Turing wondered just this - &ldquo;Can machines think?&quot;. It is a fascinating paper that I recommend you read, if you haven&rsquo;t already. The timelessness and relevance of the paper cannot be overstated - especially with exciting advances in Deep Reinforcement Learning (AlphaGo<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, AlphaStar<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>) and Natural Language Processing (GPT-3<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>). Turing&rsquo;s self-awareness and humor makes the paper as entertaining as it is intriguing. This is the same paper in which Turing described his infamous <strong>&lsquo;Turing Test - The Imitation Game&rsquo;</strong>. In this essay, I shall summarize the paper along with my own thoughts on the matter.</p>
+<p>In his seminal 1950 paper &ldquo;Computer Machinery and Intelligence&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, Alan Turing wondered just this - &ldquo;Can machines think?&rdquo;. It is a fascinating paper that I recommend you read, if you haven&rsquo;t already. The timelessness and relevance of the paper cannot be overstated - especially with exciting advances in Deep Reinforcement Learning (AlphaGo<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, AlphaStar<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>) and Natural Language Processing (GPT-3<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>). Turing&rsquo;s self-awareness and humor makes the paper as entertaining as it is intriguing. This is the same paper in which Turing described his infamous <strong>&lsquo;Turing Test - The Imitation Game&rsquo;</strong>. In this essay, I shall summarize the paper along with my own thoughts on the matter.</p>
 <h2 id="the-imitation-game">The Imitation Game</h2>
-<p>Before we begin, we must clarify a few things. The Turing Test, to be useful, lies more in the realm of science and math, than philosophy. Our understanding of thought solely stems out of our own lived experience of thought. We pose this question because we are convinced we &lsquo;think&rsquo; (subject to exceptions of course), bacteria in a petri dish &lsquo;does not think&rsquo;. Animals lie somewhere in between, but nowhere close to the intellectual prowess of humans. We wonder how machines measure up against the sequence of interactions with the world we think necessitates thought - empirically. So, the answer to our question has nothing to do with how humans feel about the answer. Turing even went on to comment on the absurdity of getting the answer in something like a &ldquo;Gallup poll&rdquo;. The test also does not consider the existential implications that might or might not arise. It does not claim that any system that passes it, automatically attains the status of God. Nor does it ask if every single computer has these capabilities. It merely considers a system that could be designed to pass the test, thereby presenting a strong signal for the presence of thought.</p>
-<pre><code> The Imitation Game : Formulation
+<p>Before we begin, we must clarify a few things. The Turing Test, to be useful, lies more in the realm of science and math, than philosophy. Our understanding of thought solely stems out of our own lived experience of thought. We pose this question because we are convinced we &rsquo;think&rsquo; (subject to exceptions of course), bacteria in a petri dish &lsquo;does not think&rsquo;. Animals lie somewhere in between, but nowhere close to the intellectual prowess of humans. We wonder how machines measure up against the sequence of interactions with the world we think necessitates thought - empirically. So, the answer to our question has nothing to do with how humans feel about the answer. Turing even went on to comment on the absurdity of getting the answer in something like a &ldquo;Gallup poll&rdquo;. The test also does not consider the existential implications that might or might not arise. It does not claim that any system that passes it, automatically attains the status of God. Nor does it ask if every single computer has these capabilities. It merely considers a system that could be designed to pass the test, thereby presenting a strong signal for the presence of thought.</p>
+<pre tabindex="0"><code> The Imitation Game : Formulation
  - Consider 2 participants {A of class x, B of Class y} and an interrogator C. 
  - C needs to figure out the participant belonging to class x by asking both A and B questions. 
- - A's objective is to help C, while B tries to mislead C. 
+ - A&#39;s objective is to help C, while B tries to mislead C. 
  - Replace B with a machine.
 </code></pre><p>Turing predicted that by 2000, (given sufficient storage capacity), an average interrogator will not have more than 70% chance of making the right identification after 5 minutes of questioning.</p>
 <h2 id="critique-of-the-new-problem">Critique of the New Problem</h2>
@@ -261,26 +258,26 @@ if (!doNotTrack) {
 <h3 id="theological-extra-sensory-head-in-the-sand-objection">Theological, Extra Sensory, &lsquo;Head-in-the-sand&rsquo; objection</h3>
 <p>&ldquo;We do not want a machine to be able to think&rdquo; is not a good argument for why the machine might or might not be able to think. Turing humors theological considerations that God has given a thinking, immortal soul to only humans with the air of a logician. He states that such an arbitrary line &ldquo;implies a serious restriction on the omnipotence of the Almighty&rdquo;.</p>
 <h2 id="learning-machines">Learning Machines</h2>
-<p>Turing, in the final sections of the paper discusses how we may program a machine to play the game. We know that evolution, armed with natural selection has led to human &lsquo;thinking&rsquo; machines. But we don&rsquo;t have a few million years at our disposal (yet). The good news is that our programming is not restricted to random mutations. Rewards and punishments may be used to increase the likelihood of favourable actions and dissuade unfavourable ones. Turing hypothesized the development of a symbolic language with a built-in inference system in the machine. Without reading too much into it, it almost seems like Turing advocates for a Neural-network type of universal approximator. He states that there may not be a hierarchy of types or concepts explicitly defined. He defends the process of &ldquo;learning&rdquo; by addressing the paradox of transient rules that the machine operates by. Surely the rules cannot be dependant on the history of the machine, right? Turning explains that the rules that do change (like weights in NNs) are of a &ldquo;pretentious kind, claiming only an ephemeral validity&rdquo;. Turing even goes on to state that a property of this kind of learning is that very often, the teacher is ignorant of exactly what is going on in the student&rsquo;s mind - something the tech community wants addressed sooner rather than later. But learning also has an advantage in that makes machines learn human fallibility in a natural way without needing any special rules. Turing mentions chess and the English language as good tests of progress, both under extensive study even nearly 70 years after his predictions.</p>
+<p>Turing, in the final sections of the paper discusses how we may program a machine to play the game. We know that evolution, armed with natural selection has led to human &rsquo;thinking&rsquo; machines. But we don&rsquo;t have a few million years at our disposal (yet). The good news is that our programming is not restricted to random mutations. Rewards and punishments may be used to increase the likelihood of favourable actions and dissuade unfavourable ones. Turing hypothesized the development of a symbolic language with a built-in inference system in the machine. Without reading too much into it, it almost seems like Turing advocates for a Neural-network type of universal approximator. He states that there may not be a hierarchy of types or concepts explicitly defined. He defends the process of &ldquo;learning&rdquo; by addressing the paradox of transient rules that the machine operates by. Surely the rules cannot be dependant on the history of the machine, right? Turning explains that the rules that do change (like weights in NNs) are of a &ldquo;pretentious kind, claiming only an ephemeral validity&rdquo;. Turing even goes on to state that a property of this kind of learning is that very often, the teacher is ignorant of exactly what is going on in the student&rsquo;s mind - something the tech community wants addressed sooner rather than later. But learning also has an advantage in that makes machines learn human fallibility in a natural way without needing any special rules. Turing mentions chess and the English language as good tests of progress, both under extensive study even nearly 70 years after his predictions.</p>
 <p>This essay, and the paper are not about the paradigm shattering changes these machines might bring about in our lives - from medicine to self driving transportation. They are about a unifying idea that binds humanity - everyone who ever lived to everyone who ever will - that we think. We can only hope that machines will join us in our journey across the cosmos.</p>
 <p>But then again, as Turing puts it best - &ldquo;We can only see a short distance ahead, but we can see plenty there that needs to be done&rdquo;.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p><a href="https://academic.oup.com/mind/article/LIX/236/433/986238">https://academic.oup.com/mind/article/LIX/236/433/986238</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:1">
+<p><a href="https://academic.oup.com/mind/article/LIX/236/433/986238">https://academic.oup.com/mind/article/LIX/236/433/986238</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
-<p><a href="https://deepmind.com/research/case-studies/alphago-the-story-so-far">https://deepmind.com/research/case-studies/alphago-the-story-so-far</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:2">
+<p><a href="https://deepmind.com/research/case-studies/alphago-the-story-so-far">https://deepmind.com/research/case-studies/alphago-the-story-so-far</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
-<p><a href="https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii">https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:3">
+<p><a href="https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii">https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:4" role="doc-endnote">
-<p><a href="https://arxiv.org/abs/2005.14165">https://arxiv.org/abs/2005.14165</a> <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:4">
+<p><a href="https://arxiv.org/abs/2005.14165">https://arxiv.org/abs/2005.14165</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 
     </div>
   </article>

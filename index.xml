@@ -6,165 +6,133 @@
     <description>Recent content on vivek Aithal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2020 22:41:05 -0700</lastBuildDate>
-    
-	<atom:link href="https://vivekaithal.co/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vivekaithal.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>justplotme: GPT3.5 to just plot things</title>
+      <link>https://vivekaithal.co/posts/002-justplotme/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://vivekaithal.co/posts/002-justplotme/</guid>
+      <description>code: https://github.com/nuwandavek/justplotme&#xA;justplotme is a python library that uses openai&amp;rsquo;s GPT-3.5 to do the AGI level task of just plotting things. It creates plots from a pandas DataFrame and a query, inside a Jupyter notebook widget. It uses the wonderful anywidget library to create a simple widget that you can run in your notebooks. Natural language based data exploration is fascinating, and I have been very excited about what it means for data science in general.</description>
+    </item>
     <item>
       <title>bodyvr: Control commabody with an Oculus</title>
       <link>https://vivekaithal.co/posts/001-bodyvr/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/001-bodyvr/</guid>
-      <description>code: https://github.com/nuwandavek/bodyvr
-contributors: fredyshox, nuwandavek
-The greatest result of the Apple Vision Pro hype is me dusting off my Meta Quest and trying it out after two years. I&amp;rsquo;ve now used it for over a month - longer than I ever did when I originally bought it. Every time I use it, I am reminded of how cool a VR world might be, how far we are from it, and how silly the human brain is, nausea and everything.</description>
+      <description>code: https://github.com/nuwandavek/bodyvr contributors: fredyshox, nuwandavek&#xA;The greatest result of the Apple Vision Pro hype is me dusting off my Meta Quest and trying it out after two years. I&amp;rsquo;ve now used it for over a month - longer than I ever did when I originally bought it. Every time I use it, I am reminded of how cool a VR world might be, how far we are from it, and how silly the human brain is, nausea and everything.</description>
     </item>
-    
     <item>
       <title>Nathan For You For You</title>
       <link>https://vivekaithal.co/posts/nathan-for-you-for-you/</link>
       <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/nathan-for-you-for-you/</guid>
-      <description>Since Nathan For You ended, there has been a deep void left in the world. Despite what the System has been trying to tell you, crypto cannot actuallysolve all problems (I verified 😢). So, a bunch of nerds got together to create God, obviously. Once we have God, we can make a perfect replica of Nathan. We can then make that Nathan have a hundred babies and send them out to struggling businesses worldwide.</description>
+      <description>Since Nathan For You ended, there has been a deep void left in the world. Despite what the System has been trying to tell you, crypto cannot actually solve all problems (I verified 😢). So, a bunch of nerds got together to create God, obviously. Once we have God, we can make a perfect replica of Nathan. We can then make that Nathan have a hundred babies and send them out to struggling businesses worldwide.</description>
     </item>
-    
     <item>
       <title>squigglylines v1: Loss of Jobs vs Time</title>
       <link>https://vivekaithal.co/posts/squiggly01-job-loss/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/squiggly01-job-loss/</guid>
-      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines
-  All-Job-Loss events so far: 0 (as-of-fiscal-year-2023)   </description>
+      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines&#xA;All-Job-Loss events so far: 0 (as-of-fiscal-year-2023) </description>
     </item>
-    
     <item>
       <title>squigglylines v0: Degree-of-Insult of a Statement vs Time</title>
       <link>https://vivekaithal.co/posts/squiggly00-degree-of-insult/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/squiggly00-degree-of-insult/</guid>
-      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines
-  Echoing in the streets: &amp;#39;SF is back, baby!&amp;#39;   Inspiration Credits: xkcd fonts, @keerthanpg, SF parties, and of course, xkcd :)</description>
+      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines&#xA;Echoing in the streets: &amp;#39;SF is back, baby!&amp;#39; Inspiration Credits: xkcd fonts, @keerthanpg, SF parties, and of course, xkcd :)</description>
     </item>
-    
     <item>
       <title>Dhwani: Audio blog posts</title>
       <link>https://vivekaithal.co/posts/dhwani-audio-blog-posts/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/dhwani-audio-blog-posts/</guid>
-      <description>Your browser does not support the audio element.    An expressive oil painting of high frequency sound waves moving through space by Midjourney   The past few months have been witness to some of the most hyped AI demos of recent times. Dall-e, stable diffusion, chatGPT, bing chat etc. have made the promise and fears about AI quite ubiquitous. The underlying technologies are incremental improvements over their previous versions, as with most things science, and not particularly groundbreaking.</description>
+      <description>Your browser does not support the audio element. An expressive oil painting of high frequency sound waves moving through space by Midjourney The past few months have been witness to some of the most hyped AI demos of recent times. Dall-e, stable diffusion, chatGPT, bing chat etc. have made the promise and fears about AI quite ubiquitous. The underlying technologies are incremental improvements over their previous versions, as with most things science, and not particularly groundbreaking.</description>
     </item>
-    
     <item>
       <title>toon02: The Side-Project Chronicles</title>
       <link>https://vivekaithal.co/posts/the-side-project-chronicles/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/the-side-project-chronicles/</guid>
-      <description>  Missed the make-cartoon-on-not-doing-side-projects-to-avoid-doing-side-projects step.   </description>
+      <description> Missed the make-cartoon-on-not-doing-side-projects-to-avoid-doing-side-projects step. </description>
     </item>
-    
     <item>
       <title>toon01: AI-Human Collab</title>
       <link>https://vivekaithal.co/posts/ai-human-colab/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/ai-human-colab/</guid>
-      <description>  This is the best case scenario, tbh.   </description>
+      <description> This is the best case scenario, tbh. </description>
     </item>
-    
+    <item>
+      <title>Not-so-Sweet News : Experiments with a CGM</title>
+      <link>https://vivekaithal.co/posts/continuous-glucose-monitoring/</link>
+      <pubDate>Sun, 29 Aug 2021 17:13:10 -0700</pubDate>
+      <guid>https://vivekaithal.co/posts/continuous-glucose-monitoring/</guid>
+      <description>Your browser does not support the audio element. Data, Code, Analysis: https://github.com/nuwandavek/spiky.&#xA;I love food. This, on the surface, is a pretty trite statement. But I don&amp;rsquo;t mean I love food the same way one says &amp;ldquo;oh you&amp;rsquo;re going to love this!&amp;rdquo; and show you a mediocre video of a silly dance to which you reply &amp;ldquo;LOL&amp;rdquo;. Everyone involved in this interaction including the dancers in the video know you did not laugh out loud.</description>
+    </item>
+    <item>
+      <title>Don&#39;t Panic : Two years in the US of A</title>
+      <link>https://vivekaithal.co/posts/dont-panic/</link>
+      <pubDate>Sun, 15 Aug 2021 18:14:51 -0700</pubDate>
+      <guid>https://vivekaithal.co/posts/dont-panic/</guid>
+      <description>I fastened my seat belt as the sign went off and the air hostess shuffled hurriedly to help people settle down. I was nervously grasping the folder of documents, going through it the third time since I had boarded the flight - passport, i20, university acceptance letter. I put it away, to avoid checking the documents a fourth time. It was August 16th 2019, a day after India&amp;rsquo;s independence day, and I was moving to the USA.</description>
+    </item>
     <item>
       <title>You : Only You can (auto-)complete you</title>
       <link>https://vivekaithal.co/posts/you-complete-you/</link>
       <pubDate>Thu, 07 Jan 2021 17:14:49 -0800</pubDate>
-      
       <guid>https://vivekaithal.co/posts/you-complete-you/</guid>
-      <description>GitHub Repo : https://github.com/nuwandavek/you
-You is an auto-completion tool that completes your sentences. It lets you train a generative model that can mimic your personal style over all your text communication. Currently, You trains on WhatsApp chat history, and offers autocomplete suggestions on WhatsApp Web via a Chrome/Firefox extension and a flask server. This can be extended to train and autocomplete on more personal communication apps (Messenger, email, Slack, Twitter, etc.</description>
+      <description>GitHub Repo : https://github.com/nuwandavek/you&#xA;You is an auto-completion tool that completes your sentences. It lets you train a generative model that can mimic your personal style over all your text communication. Currently, You trains on WhatsApp chat history, and offers autocomplete suggestions on WhatsApp Web via a Chrome/Firefox extension and a flask server. This can be extended to train and autocomplete on more personal communication apps (Messenger, email, Slack, Twitter, etc.</description>
     </item>
-    
     <item>
       <title>Hack-una Matata : How to Win a Hackathon</title>
       <link>https://vivekaithal.co/posts/hackuna-matata/</link>
       <pubDate>Wed, 09 Sep 2020 22:56:33 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/hackuna-matata/</guid>
-      <description>   </description>
+      <description> </description>
     </item>
-    
     <item>
       <title>Exit Through the Gift Shop</title>
       <link>https://vivekaithal.co/exit-through-the-gift-shop/</link>
       <pubDate>Tue, 18 Aug 2020 22:41:05 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/exit-through-the-gift-shop/</guid>
-      <description>Exit Through the Gift Shop   Guess who&amp;#39;s in the House ya&amp;#39;ll?     Everybody Lies.     Let&amp;#39;s throw a flower grenade     Rage, the Flower Thrower, Banksy - Bethlehem     Exit Through the Gift Shop     Why do we fall?     Darkness, my friend     The wanderer     umm.</description>
+      <description>Exit Through the Gift Shop Guess who&amp;#39;s in the House ya&amp;#39;ll? Everybody Lies. Let&amp;#39;s throw a flower grenade Rage, the Flower Thrower, Banksy - Bethlehem Exit Through the Gift Shop Why do we fall? Darkness, my friend The wanderer umm... Peace Ghosts Time Don&amp;#39;t you wish you could fly? </description>
     </item>
-    
     <item>
       <title>Make Driving Chill</title>
       <link>https://vivekaithal.co/posts/summer-at-comma-ai/</link>
       <pubDate>Tue, 18 Aug 2020 21:01:32 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/summer-at-comma-ai/</guid>
       <description>We were cruising at a comfortable 50 miles per hour on San Diego&amp;rsquo;s I5 as we came up on a bend. I intuitively held on to the seat in front of me, as I was filming from the back seat. George was sitting comfortably, with his hands on his lap, talking to the rest of us about what&amp;rsquo;s in store for Comma.ai. The car followed the lane without breaking a sweat.</description>
     </item>
-    
     <item>
       <title>Can Machines Think?</title>
       <link>https://vivekaithal.co/posts/can-machines-think/</link>
       <pubDate>Sat, 08 Aug 2020 19:51:13 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/can-machines-think/</guid>
       <description>She stared at the screen in disbelief. Till then it was explaining the rules as what can only be described as excitement. It felt like it was really looking forward to play. She half suspected this was a human trait they had explicitly coded, result of an A/B test aimed at moving some complicated metric on some colourful dashboard. But it had just said something that made her blush. Nothing inappropriate, of course, just charming.</description>
     </item>
-    
     <item>
       <title>OKRU — Part 2 : Features, Dreams and Promises</title>
       <link>https://vivekaithal.co/posts/okru-2/</link>
       <pubDate>Sun, 19 Jul 2020 00:19:24 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/okru-2/</guid>
-      <description>OKRU is a bunch of scratch-your-own-itch, experimental and open-source tools to track goals for ensuring both long and short term accountability. Most things of any value in life are hard and it takes an unbelievable amount of discipline to be even half decent at them. Getting fit in hard. Getting competent is hard. Building useful products is hard. And we can use all the help we can get.
-What do the tools actually look like / How does one use them?</description>
+      <description>OKRU is a bunch of scratch-your-own-itch, experimental and open-source tools to track goals for ensuring both long and short term accountability. Most things of any value in life are hard and it takes an unbelievable amount of discipline to be even half decent at them. Getting fit in hard. Getting competent is hard. Building useful products is hard. And we can use all the help we can get.&#xA;What do the tools actually look like / How does one use them?</description>
     </item>
-    
     <item>
       <title>OKRU — Part 1 : Of Goals, Friends and our Silly Brains</title>
       <link>https://vivekaithal.co/posts/okru-1/</link>
       <pubDate>Sun, 19 Jul 2020 00:19:21 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/okru-1/</guid>
-      <description>OKRU is a bunch of scratch-your-own-itch, experimental and open-source tools to track goals for ensuring both long and short term accountability. Most things of any value in life are hard and it takes an unbelievable amount of discipline to be even half decent at them. Getting fit in hard. Getting competent is hard. Building useful products is hard. And we can use all the help we can get.
-  The OKRU homepage : https://okru.</description>
+      <description>OKRU is a bunch of scratch-your-own-itch, experimental and open-source tools to track goals for ensuring both long and short term accountability. Most things of any value in life are hard and it takes an unbelievable amount of discipline to be even half decent at them. Getting fit in hard. Getting competent is hard. Building useful products is hard. And we can use all the help we can get.&#xA;The OKRU homepage : https://okru.</description>
     </item>
-    
     <item>
       <title>Where&#39;d You Go? [Poem]</title>
       <link>https://vivekaithal.co/posts/whered-you-go/</link>
       <pubDate>Thu, 08 Nov 2018 00:05:30 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/whered-you-go/</guid>
-      <description>It was cold and damp,
-It had been dark for a while
-I should have seen about that lamp
-But I’d been running in circles
-Mile after mile
-Where’d you go?
-One day you knocked at my door
-I wasn’t ready to open
-“Go away!” I screamed, and more
-But you stood there
-Smiling your bright sun-kissed smile
-A hammer in your sweaty palms
-My crumbling walls,
-You had powered through</description>
+      <description>It was cold and damp,&#xA;It had been dark for a while&#xA;I should have seen about that lamp&#xA;But I’d been running in circles&#xA;Mile after mile&#xA;Where’d you go?&#xA;One day you knocked at my door&#xA;I wasn’t ready to open&#xA;“Go away!” I screamed, and more&#xA;But you stood there&#xA;Smiling your bright sun-kissed smile&#xA;A hammer in your sweaty palms&#xA;My crumbling walls,&#xA;You had powered through</description>
     </item>
-    
   </channel>
 </rss>

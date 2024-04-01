@@ -1,159 +1,106 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://vivekaithal.co/posts/002-justplotme/</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vivekaithal.co/posts/</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vivekaithal.co/</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://vivekaithal.co/posts/001-bodyvr/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vivekaithal.co/posts/</loc>
-    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/nathan-for-you-for-you/</loc>
     <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/art/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/squiggly_lines/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/squiggly01-job-loss/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/squiggly00-degree-of-insult/</loc>
     <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/dhwani-audio-blog-posts/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/the-side-project-chronicles/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/ai/</loc>
     <lastmod>2022-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/ai-human-colab/</loc>
     <lastmod>2022-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://vivekaithal.co/posts/continuous-glucose-monitoring/</loc>
+    <lastmod>2021-08-29T17:13:10-07:00</lastmod>
+  </url><url>
+    <loc>https://vivekaithal.co/posts/dont-panic/</loc>
+    <lastmod>2021-08-15T18:14:51-07:00</lastmod>
+  </url><url>
     <loc>https://vivekaithal.co/tags/app/</loc>
     <lastmod>2021-01-07T17:14:49-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/nlp/</loc>
     <lastmod>2021-01-07T17:14:49-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/side-projects/</loc>
     <lastmod>2021-01-07T17:14:49-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/you-complete-you/</loc>
     <lastmod>2021-01-07T17:14:49-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/hackuna-matata/</loc>
     <lastmod>2020-09-09T22:56:33-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/exit-through-the-gift-shop/</loc>
     <lastmod>2020-08-18T22:41:05-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vivekaithal.co/</loc>
-    <lastmod>2020-08-18T22:41:05-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/summer-at-comma-ai/</loc>
     <lastmod>2020-08-18T21:01:32-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/reflections/</loc>
     <lastmod>2020-08-18T21:01:32-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/work/</loc>
     <lastmod>2020-08-18T21:01:32-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/can-machines-think/</loc>
     <lastmod>2020-08-08T19:51:13-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/consciousness/</loc>
     <lastmod>2020-08-08T19:51:13-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/research-paper/</loc>
     <lastmod>2020-08-08T19:51:13-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/okru-2/</loc>
     <lastmod>2020-07-19T00:19:24-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/productivity/</loc>
     <lastmod>2020-07-19T00:19:24-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/okru-1/</loc>
     <lastmod>2020-07-19T00:19:21-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/tags/poetry/</loc>
     <lastmod>2018-11-08T00:05:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/posts/whered-you-go/</loc>
     <lastmod>2018-11-08T00:05:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vivekaithal.co/categories/</loc>
   </url>
-  
 </urlset>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> justplotme: GPT3.5 to just plot things | vivek Aithal</title>
+  <meta name="description" content="Some cached thoughts : &lt;br&gt; 
+  - Revealed Preferences &gt;&gt;&gt; Stated Preferences.&lt;br&gt; 
+  - More important than the will to win is the will to prepare. &lt;br&gt;
+  - If you&#39;re so smart, why are you unhappy?">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="justplotme: GPT3.5 to just plot things" />
+<meta property="og:description" content="A Jupyter widget for easy plotting" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vivekaithal.co/posts/002-justplotme/" /><meta property="og:image" content="https://vivekaithal.co/images/002_justplotme/display.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-03-31T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://vivekaithal.co/images/002_justplotme/display.jpg" /><meta name="twitter:title" content="justplotme: GPT3.5 to just plot things"/>
+<meta name="twitter:description" content="A Jupyter widget for easy plotting"/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://vivekaithal.co/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+  <link rel="stylesheet" href="https://vivekaithal.co/css/foo.css">
+
+  
+  
+<link rel="icon" type="image/png" href="https://vivekaithal.co/images/favicon.ico" />
+
+  
+  
+  
+  
+  
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJ3ZGE2QX8"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-NJ3ZGE2QX8', { 'anonymize_ip': false });
+}
+</script>
+
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Essays</a></li>
+         
+        <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://vivekaithal.co/posts/001-bodyvr/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&text=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&is_video=false&description=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=justplotme%3a%20GPT3.5%20to%20just%20plot%20things&body=Check out this article: https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-digg " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&name=justplotme%3a%20GPT3.5%20to%20just%20plot%20things&description=A%20Jupyter%20widget%20for%20easy%20plotting">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&t=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why">Why?</a></li>
+    <li><a href="#what-next">What next?</a></li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        justplotme: GPT3.5 to just plot things
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2024-03-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-03-31</time>
+          
+        </div>
+        
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p><em>code: <a href="https://github.com/nuwandavek/justplotme">https://github.com/nuwandavek/justplotme</a></em></p>
+<p><strong>justplotme</strong> is a python library that uses openai&rsquo;s GPT-3.5 to do the AGI level task of just plotting things. It creates plots from a pandas DataFrame and a query, inside a Jupyter notebook widget. It uses the wonderful <a href="https://anywidget.dev/">anywidget</a> library to create a simple widget that you can run in your notebooks. Natural language based data exploration is fascinating, and I have been very excited about what it means for data science in general.</p>
+<figure><img src="/images/002_justplotme/demo.gif"><figcaption>
+      <h4>justplotme in action</h4>
+    </figcaption>
+</figure>
+
+<h2 id="why">Why?</h2>
+<p>I create &gt;25 plots a day, using unnecessarily complicated plotting libraries with their own APIs. I really thought there would be tools I would already be using, integrating LLMs into my work flow. It is ~2 years now since the release of GPT-3.5 and the best tool out there is still ChatGPT. I&rsquo;ve seen Julius and other data-science-adjacent platforms. I don&rsquo;t want any of that. I simply want to integrate things into my own workflow - don&rsquo;t want move data across platforms. Also, I hate the linear input-output structure of ChatGPT. It works great for answering questions, or giving code suggestions. But for data analysis / exploration, I want the data entity I am working on to stay on a part of the screen, and I want to iteratively modify it with text. <code>justplotme</code> is an experiment with this basic structure. It doesn&rsquo;t do anything right now, except giving one line plotly expressions to generate plots.</p>
+<p>To use this in a notebook:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">!</span> pip install justplotme
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> justplotme <span style="color:#f92672">import</span> PlotMe
+</span></span><span style="display:flex;"><span>OPENAI_KEY <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>getenv(<span style="color:#e6db74">&#34;OPENAI_API_KEY&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># df is a pandas DataFrame</span>
+</span></span><span style="display:flex;"><span>PlotMe(df, api_key<span style="color:#f92672">=</span>OPENAI_KEY)
+</span></span></code></pre></div><h2 id="what-next">What next?</h2>
+<p>Firstly, I want to support this widget across multiple notebook platforms (at least all the ones anywidget supports). Jupyter widgets are a really powerful paradigm that are underexplored for LLM based data interactions. Auto-visualizations based on data fields, viz suggestions, goal-motivated aggregations and querying are some exciting directions this could take. But for now, it just plots things. Do give it a try!</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/posts">Essays</a></li>
+         
+          <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why">Why?</a></li>
+    <li><a href="#what-next">What next?</a></li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&text=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&is_video=false&description=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=justplotme%3a%20GPT3.5%20to%20just%20plot%20things&body=Check out this article: https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&title=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&name=justplotme%3a%20GPT3.5%20to%20just%20plot%20things&description=A%20Jupyter%20widget%20for%20easy%20plotting">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fvivekaithal.co%2fposts%2f002-justplotme%2f&t=justplotme%3a%20GPT3.5%20to%20just%20plot%20things">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2024  vivek Aithal 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Essays</a></li>
+         
+        <li><a href="/">Side Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>

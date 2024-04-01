@@ -7,117 +7,90 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vivekaithal.co/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vivekaithal.co/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>art</title>
+      <title>Art</title>
       <link>https://vivekaithal.co/tags/art/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/tags/art/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>squiggly_lines</title>
+      <title>Squiggly_lines</title>
       <link>https://vivekaithal.co/tags/squiggly_lines/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/tags/squiggly_lines/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ai</title>
+      <title>Ai</title>
       <link>https://vivekaithal.co/tags/ai/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>app</title>
+      <title>App</title>
       <link>https://vivekaithal.co/tags/app/</link>
       <pubDate>Thu, 07 Jan 2021 17:14:49 -0800</pubDate>
-      
       <guid>https://vivekaithal.co/tags/app/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nlp</title>
+      <title>Nlp</title>
       <link>https://vivekaithal.co/tags/nlp/</link>
       <pubDate>Thu, 07 Jan 2021 17:14:49 -0800</pubDate>
-      
       <guid>https://vivekaithal.co/tags/nlp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>side-projects</title>
+      <title>Side-Projects</title>
       <link>https://vivekaithal.co/tags/side-projects/</link>
       <pubDate>Thu, 07 Jan 2021 17:14:49 -0800</pubDate>
-      
       <guid>https://vivekaithal.co/tags/side-projects/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reflections</title>
+      <title>Reflections</title>
       <link>https://vivekaithal.co/tags/reflections/</link>
       <pubDate>Tue, 18 Aug 2020 21:01:32 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/tags/reflections/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>work</title>
+      <title>Work</title>
       <link>https://vivekaithal.co/tags/work/</link>
       <pubDate>Tue, 18 Aug 2020 21:01:32 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/tags/work/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>consciousness</title>
+      <title>Consciousness</title>
       <link>https://vivekaithal.co/tags/consciousness/</link>
       <pubDate>Sat, 08 Aug 2020 19:51:13 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/tags/consciousness/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>research-paper</title>
+      <title>Research-Paper</title>
       <link>https://vivekaithal.co/tags/research-paper/</link>
       <pubDate>Sat, 08 Aug 2020 19:51:13 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/tags/research-paper/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>productivity</title>
+      <title>Productivity</title>
       <link>https://vivekaithal.co/tags/productivity/</link>
       <pubDate>Sun, 19 Jul 2020 00:19:24 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/tags/productivity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>poetry</title>
+      <title>Poetry</title>
       <link>https://vivekaithal.co/tags/poetry/</link>
       <pubDate>Thu, 08 Nov 2018 00:05:30 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/tags/poetry/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

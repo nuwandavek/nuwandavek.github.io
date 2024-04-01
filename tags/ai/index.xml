@@ -1,52 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ai on vivek Aithal</title>
+    <title>Ai on vivek Aithal</title>
     <link>https://vivekaithal.co/tags/ai/</link>
-    <description>Recent content in ai on vivek Aithal</description>
+    <description>Recent content in Ai on vivek Aithal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 May 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vivekaithal.co/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vivekaithal.co/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>toon01: AI-Human Collab</title>
       <link>https://vivekaithal.co/posts/ai-human-colab/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/ai-human-colab/</guid>
-      <description>  This is the best case scenario, tbh.   </description>
+      <description> This is the best case scenario, tbh. </description>
     </item>
-    
     <item>
       <title>You : Only You can (auto-)complete you</title>
       <link>https://vivekaithal.co/posts/you-complete-you/</link>
       <pubDate>Thu, 07 Jan 2021 17:14:49 -0800</pubDate>
-      
       <guid>https://vivekaithal.co/posts/you-complete-you/</guid>
-      <description>GitHub Repo : https://github.com/nuwandavek/you
-You is an auto-completion tool that completes your sentences. It lets you train a generative model that can mimic your personal style over all your text communication. Currently, You trains on WhatsApp chat history, and offers autocomplete suggestions on WhatsApp Web via a Chrome/Firefox extension and a flask server. This can be extended to train and autocomplete on more personal communication apps (Messenger, email, Slack, Twitter, etc.</description>
+      <description>GitHub Repo : https://github.com/nuwandavek/you&#xA;You is an auto-completion tool that completes your sentences. It lets you train a generative model that can mimic your personal style over all your text communication. Currently, You trains on WhatsApp chat history, and offers autocomplete suggestions on WhatsApp Web via a Chrome/Firefox extension and a flask server. This can be extended to train and autocomplete on more personal communication apps (Messenger, email, Slack, Twitter, etc.</description>
     </item>
-    
     <item>
       <title>Make Driving Chill</title>
       <link>https://vivekaithal.co/posts/summer-at-comma-ai/</link>
       <pubDate>Tue, 18 Aug 2020 21:01:32 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/summer-at-comma-ai/</guid>
       <description>We were cruising at a comfortable 50 miles per hour on San Diego&amp;rsquo;s I5 as we came up on a bend. I intuitively held on to the seat in front of me, as I was filming from the back seat. George was sitting comfortably, with his hands on his lap, talking to the rest of us about what&amp;rsquo;s in store for Comma.ai. The car followed the lane without breaking a sweat.</description>
     </item>
-    
     <item>
       <title>Can Machines Think?</title>
       <link>https://vivekaithal.co/posts/can-machines-think/</link>
       <pubDate>Sat, 08 Aug 2020 19:51:13 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/can-machines-think/</guid>
       <description>She stared at the screen in disbelief. Till then it was explaining the rules as what can only be described as excitement. It felt like it was really looking forward to play. She half suspected this was a human trait they had explicitly coded, result of an A/B test aimed at moving some complicated metric on some colourful dashboard. But it had just said something that made her blush. Nothing inappropriate, of course, just charming.</description>
     </item>
-    
   </channel>
 </rss>

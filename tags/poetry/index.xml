@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>poetry on vivek Aithal</title>
+    <title>Poetry on vivek Aithal</title>
     <link>https://vivekaithal.co/tags/poetry/</link>
-    <description>Recent content in poetry on vivek Aithal</description>
+    <description>Recent content in Poetry on vivek Aithal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Nov 2018 00:05:30 -0700</lastBuildDate>
-    
-	<atom:link href="https://vivekaithal.co/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vivekaithal.co/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where&#39;d You Go? [Poem]</title>
       <link>https://vivekaithal.co/posts/whered-you-go/</link>
       <pubDate>Thu, 08 Nov 2018 00:05:30 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/posts/whered-you-go/</guid>
-      <description>It was cold and damp,
-It had been dark for a while
-I should have seen about that lamp
-But I’d been running in circles
-Mile after mile
-Where’d you go?
-One day you knocked at my door
-I wasn’t ready to open
-“Go away!” I screamed, and more
-But you stood there
-Smiling your bright sun-kissed smile
-A hammer in your sweaty palms
-My crumbling walls,
-You had powered through</description>
+      <description>It was cold and damp,&#xA;It had been dark for a while&#xA;I should have seen about that lamp&#xA;But I’d been running in circles&#xA;Mile after mile&#xA;Where’d you go?&#xA;One day you knocked at my door&#xA;I wasn’t ready to open&#xA;“Go away!” I screamed, and more&#xA;But you stood there&#xA;Smiling your bright sun-kissed smile&#xA;A hammer in your sweaty palms&#xA;My crumbling walls,&#xA;You had powered through</description>
     </item>
-    
   </channel>
 </rss>

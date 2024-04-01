@@ -1,62 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>art on vivek Aithal</title>
+    <title>Art on vivek Aithal</title>
     <link>https://vivekaithal.co/tags/art/</link>
-    <description>Recent content in art on vivek Aithal</description>
+    <description>Recent content in Art on vivek Aithal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vivekaithal.co/tags/art/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vivekaithal.co/tags/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>squigglylines v1: Loss of Jobs vs Time</title>
       <link>https://vivekaithal.co/posts/squiggly01-job-loss/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/squiggly01-job-loss/</guid>
-      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines
-  All-Job-Loss events so far: 0 (as-of-fiscal-year-2023)   </description>
+      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines&#xA;All-Job-Loss events so far: 0 (as-of-fiscal-year-2023) </description>
     </item>
-    
     <item>
       <title>squigglylines v0: Degree-of-Insult of a Statement vs Time</title>
       <link>https://vivekaithal.co/posts/squiggly00-degree-of-insult/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/squiggly00-degree-of-insult/</guid>
-      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines
-  Echoing in the streets: &amp;#39;SF is back, baby!&amp;#39;   Inspiration Credits: xkcd fonts, @keerthanpg, SF parties, and of course, xkcd :)</description>
+      <description>Code to generate such plots: https://github.com/nuwandavek/squigglylines&#xA;Echoing in the streets: &amp;#39;SF is back, baby!&amp;#39; Inspiration Credits: xkcd fonts, @keerthanpg, SF parties, and of course, xkcd :)</description>
     </item>
-    
     <item>
       <title>toon02: The Side-Project Chronicles</title>
       <link>https://vivekaithal.co/posts/the-side-project-chronicles/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/the-side-project-chronicles/</guid>
-      <description>  Missed the make-cartoon-on-not-doing-side-projects-to-avoid-doing-side-projects step.   </description>
+      <description> Missed the make-cartoon-on-not-doing-side-projects-to-avoid-doing-side-projects step. </description>
     </item>
-    
     <item>
       <title>toon01: AI-Human Collab</title>
       <link>https://vivekaithal.co/posts/ai-human-colab/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://vivekaithal.co/posts/ai-human-colab/</guid>
-      <description>  This is the best case scenario, tbh.   </description>
+      <description> This is the best case scenario, tbh. </description>
     </item>
-    
     <item>
       <title>Exit Through the Gift Shop</title>
       <link>https://vivekaithal.co/exit-through-the-gift-shop/</link>
       <pubDate>Tue, 18 Aug 2020 22:41:05 -0700</pubDate>
-      
       <guid>https://vivekaithal.co/exit-through-the-gift-shop/</guid>
-      <description>Exit Through the Gift Shop   Guess who&amp;#39;s in the House ya&amp;#39;ll?     Everybody Lies.     Let&amp;#39;s throw a flower grenade     Rage, the Flower Thrower, Banksy - Bethlehem     Exit Through the Gift Shop     Why do we fall?     Darkness, my friend     The wanderer     umm.</description>
+      <description>Exit Through the Gift Shop Guess who&amp;#39;s in the House ya&amp;#39;ll? Everybody Lies. Let&amp;#39;s throw a flower grenade Rage, the Flower Thrower, Banksy - Bethlehem Exit Through the Gift Shop Why do we fall? Darkness, my friend The wanderer umm... Peace Ghosts Time Don&amp;#39;t you wish you could fly? </description>
     </item>
-    
   </channel>
 </rss>
